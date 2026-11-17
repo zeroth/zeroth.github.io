@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-17T04:25:24.381Z",
+  "title": "Design System: zeroth.me",
+  "extensions": {
+    "colorMeta": {
+      "marker": {
+        "role": "primary",
+        "displayName": "Marker Yellow",
+        "canonical": "oklch(81.1% 0.166 85.0)",
+        "tonalRamp": [
+          "oklch(15% 0.083 85.0)",
+          "oklch(26% 0.083 85.0)",
+          "oklch(37% 0.166 85.0)",
+          "oklch(48% 0.166 85.0)",
+          "oklch(59% 0.166 85.0)",
+          "oklch(70% 0.166 85.0)",
+          "oklch(82% 0.166 85.0)",
+          "oklch(95% 0.083 85.0)"
+        ]
+      },
+      "marker-hover": {
+        "role": "primary",
+        "displayName": "Marker Hover",
+        "canonical": "oklch(85.4% 0.171 86.9)",
+        "tonalRamp": [
+          "oklch(15% 0.085 86.9)",
+          "oklch(26% 0.085 86.9)",
+          "oklch(37% 0.171 86.9)",
+          "oklch(48% 0.171 86.9)",
+          "oklch(59% 0.171 86.9)",
+          "oklch(70% 0.171 86.9)",
+          "oklch(82% 0.171 86.9)",
+          "oklch(95% 0.085 86.9)"
+        ]
+      },
+      "marker-ink": {
+        "role": "primary",
+        "displayName": "Marker Ink",
+        "canonical": "oklch(20.3% 0.042 93.7)",
+        "tonalRamp": [
+          "oklch(15% 0.021 93.7)",
+          "oklch(26% 0.021 93.7)",
+          "oklch(37% 0.042 93.7)",
+          "oklch(48% 0.042 93.7)",
+          "oklch(59% 0.042 93.7)",
+          "oklch(70% 0.042 93.7)",
+          "oklch(82% 0.042 93.7)",
+          "oklch(95% 0.021 93.7)"
+        ]
+      },
+      "eosin": {
+        "role": "secondary",
+        "displayName": "Eosin",
+        "canonical": "oklch(56.0% 0.174 2.8)",
+        "tonalRamp": [
+          "oklch(15% 0.087 2.8)",
+          "oklch(26% 0.087 2.8)",
+          "oklch(37% 0.174 2.8)",
+          "oklch(48% 0.174 2.8)",
+          "oklch(59% 0.174 2.8)",
+          "oklch(70% 0.174 2.8)",
+          "oklch(82% 0.174 2.8)",
+          "oklch(95% 0.087 2.8)"
+        ]
+      },
+      "eosin-pale": {
+        "role": "secondary",
+        "displayName": "Eosin Pale",
+        "canonical": "oklch(90.6% 0.039 353.3)",
+        "tonalRamp": [
+          "oklch(15% 0.019 353.3)",
+          "oklch(26% 0.019 353.3)",
+          "oklch(37% 0.039 353.3)",
+          "oklch(48% 0.039 353.3)",
+          "oklch(59% 0.039 353.3)",
+          "oklch(70% 0.039 353.3)",
+          "oklch(82% 0.039 353.3)",
+          "oklch(95% 0.019 353.3)"
+        ]
+      },
+      "eosin-bright": {
+        "role": "secondary",
+        "displayName": "Eosin Bright",
+        "canonical": "oklch(72.7% 0.153 359.9)",
+        "tonalRamp": [
+          "oklch(15% 0.076 359.9)",
+          "oklch(26% 0.076 359.9)",
+          "oklch(37% 0.153 359.9)",
+          "oklch(48% 0.153 359.9)",
+          "oklch(59% 0.153 359.9)",
+          "oklch(70% 0.153 359.9)",
+          "oklch(82% 0.153 359.9)",
+          "oklch(95% 0.076 359.9)"
+        ]
+      },
+      "haem": {
+        "role": "tertiary",
+        "displayName": "Haematoxylin",
+        "canonical": "oklch(31.6% 0.107 298.3)",
+        "tonalRamp": [
+          "oklch(15% 0.054 298.3)",
+          "oklch(26% 0.054 298.3)",
+          "oklch(37% 0.107 298.3)",
+          "oklch(48% 0.107 298.3)",
+          "oklch(59% 0.107 298.3)",
+          "oklch(70% 0.107 298.3)",
+          "oklch(82% 0.107 298.3)",
+          "oklch(95% 0.054 298.3)"
+        ]
+      },
+      "haem-deep": {
+        "role": "tertiary",
+        "displayName": "Box Interior",
+        "canonical": "oklch(22.5% 0.052 301.1)",
+        "tonalRamp": [
+          "oklch(15% 0.026 301.1)",
+          "oklch(26% 0.026 301.1)",
+          "oklch(37% 0.052 301.1)",
+          "oklch(48% 0.052 301.1)",
+          "oklch(59% 0.052 301.1)",
+          "oklch(70% 0.052 301.1)",
+          "oklch(82% 0.052 301.1)",
+          "oklch(95% 0.026 301.1)"
+        ]
+      },
+      "haem-mid": {
+        "role": "tertiary",
+        "displayName": "Tray Floor",
+        "canonical": "oklch(27.1% 0.066 300.0)",
+        "tonalRamp": [
+          "oklch(15% 0.033 300.0)",
+          "oklch(26% 0.033 300.0)",
+          "oklch(37% 0.066 300.0)",
+          "oklch(48% 0.066 300.0)",
+          "oklch(59% 0.066 300.0)",
+          "oklch(70% 0.066 300.0)",
+          "oklch(82% 0.066 300.0)",
+          "oklch(95% 0.033 300.0)"
+        ]
+      },
+      "haem-channel": {
+        "role": "tertiary",
+        "displayName": "Channel Shadow",
+        "canonical": "oklch(18.6% 0.041 301.0)",
+        "tonalRamp": [
+          "oklch(15% 0.020 301.0)",
+          "oklch(26% 0.020 301.0)",
+          "oklch(37% 0.041 301.0)",
+          "oklch(48% 0.041 301.0)",
+          "oklch(59% 0.041 301.0)",
+          "oklch(70% 0.041 301.0)",
+          "oklch(82% 0.041 301.0)",
+          "oklch(95% 0.020 301.0)"
+        ]
+      },
+      "on-haem": {
+        "role": "tertiary",
+        "displayName": "On-Haem",
+        "canonical": "oklch(94.3% 0.020 305.3)",
+        "tonalRamp": [
+          "oklch(15% 0.010 305.3)",
+          "oklch(26% 0.010 305.3)",
+          "oklch(37% 0.020 305.3)",
+          "oklch(48% 0.020 305.3)",
+          "oklch(59% 0.020 305.3)",
+          "oklch(70% 0.020 305.3)",
+          "oklch(82% 0.020 305.3)",
+          "oklch(95% 0.010 305.3)"
+        ]
+      },
+      "on-haem-2": {
+        "role": "tertiary",
+        "displayName": "On-Haem Muted",
+        "canonical": "oklch(77.5% 0.054 302.4)",
+        "tonalRamp": [
+          "oklch(15% 0.027 302.4)",
+          "oklch(26% 0.027 302.4)",
+          "oklch(37% 0.054 302.4)",
+          "oklch(48% 0.054 302.4)",
+          "oklch(59% 0.054 302.4)",
+          "oklch(70% 0.054 302.4)",
+          "oklch(82% 0.054 302.4)",
+          "oklch(95% 0.027 302.4)"
+        ]
+      },
+      "lightbox": {
+        "role": "neutral",
+        "displayName": "Light Box",
+        "canonical": "oklch(95.8% 0.010 93.6)",
+        "tonalRamp": [
+          "oklch(15% 0.005 93.6)",
+          "oklch(26% 0.005 93.6)",
+          "oklch(37% 0.010 93.6)",
+          "oklch(48% 0.010 93.6)",
+          "oklch(59% 0.010 93.6)",
+          "oklch(70% 0.010 93.6)",
+          "oklch(82% 0.010 93.6)",
+          "oklch(95% 0.005 93.6)"
+        ]
+      },
+      "frost": {
+        "role": "neutral",
+        "displayName": "Frost",
+        "canonical": "oklch(98.8% 0.004 91.4)",
+        "tonalRamp": [
+          "oklch(15% 0.002 91.4)",
+          "oklch(26% 0.002 91.4)",
+          "oklch(37% 0.004 91.4)",
+          "oklch(48% 0.004 91.4)",
+          "oklch(59% 0.004 91.4)",
+          "oklch(70% 0.004 91.4)",
+          "oklch(82% 0.004 91.4)",
+          "oklch(95% 0.002 91.4)"
+        ]
+      },
+      "card-stock": {
+        "role": "neutral",
+        "displayName": "Card Stock",
+        "canonical": "oklch(99.3% 0.003 106.4)",
+        "tonalRamp": [
+          "oklch(15% 0.001 106.4)",
+          "oklch(26% 0.001 106.4)",
+          "oklch(37% 0.003 106.4)",
+          "oklch(48% 0.003 106.4)",
+          "oklch(59% 0.003 106.4)",
+          "oklch(70% 0.003 106.4)",
+          "oklch(82% 0.003 106.4)",
+          "oklch(95% 0.001 106.4)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Graphite Ink",
+        "canonical": "oklch(27.5% 0.020 223.6)",
+        "tonalRamp": [
+          "oklch(15% 0.010 223.6)",
+          "oklch(26% 0.010 223.6)",
+          "oklch(37% 0.020 223.6)",
+          "oklch(48% 0.020 223.6)",
+          "oklch(59% 0.020 223.6)",
+          "oklch(70% 0.020 223.6)",
+          "oklch(82% 0.020 223.6)",
+          "oklch(95% 0.010 223.6)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Graphite Muted",
+        "canonical": "oklch(45.1% 0.020 225.6)",
+        "tonalRamp": [
+          "oklch(15% 0.010 225.6)",
+          "oklch(26% 0.010 225.6)",
+          "oklch(37% 0.020 225.6)",
+          "oklch(48% 0.020 225.6)",
+          "oklch(59% 0.020 225.6)",
+          "oklch(70% 0.020 225.6)",
+          "oklch(82% 0.020 225.6)",
+          "oklch(95% 0.010 225.6)"
+        ]
+      },
+      "pencil-graphite": {
+        "role": "neutral",
+        "displayName": "Pencil Graphite",
+        "canonical": "oklch(51.5% 0.018 227.3)",
+        "tonalRamp": [
+          "oklch(15% 0.009 227.3)",
+          "oklch(26% 0.009 227.3)",
+          "oklch(37% 0.018 227.3)",
+          "oklch(48% 0.018 227.3)",
+          "oklch(59% 0.018 227.3)",
+          "oklch(70% 0.018 227.3)",
+          "oklch(82% 0.018 227.3)",
+          "oklch(95% 0.009 227.3)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "oklch(86.7% 0.018 89.4)",
+        "tonalRamp": [
+          "oklch(15% 0.009 89.4)",
+          "oklch(26% 0.009 89.4)",
+          "oklch(37% 0.018 89.4)",
+          "oklch(48% 0.018 89.4)",
+          "oklch(59% 0.018 89.4)",
+          "oklch(70% 0.018 89.4)",
+          "oklch(82% 0.018 89.4)",
+          "oklch(95% 0.009 89.4)"
+        ]
+      },
+      "glass-edge": {
+        "role": "neutral",
+        "displayName": "Glass Edge",
+        "canonical": "oklch(72.3% 0.040 164.4)",
+        "tonalRamp": [
+          "oklch(15% 0.020 164.4)",
+          "oklch(26% 0.020 164.4)",
+          "oklch(37% 0.040 164.4)",
+          "oklch(48% 0.040 164.4)",
+          "oklch(59% 0.040 164.4)",
+          "oklch(70% 0.040 164.4)",
+          "oklch(82% 0.040 164.4)",
+          "oklch(95% 0.020 164.4)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The name on slide 01's frosted label."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "The tray heading; footer name at 1.35rem."
+      },
+      "thesis": {
+        "displayName": "Thesis",
+        "purpose": "The single large serif statement under the hero slide."
+      },
+      "specimen": {
+        "displayName": "Specimen",
+        "purpose": "The result each tray slide is remembered for, in eosin bright."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "The empty slot's heading."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text; 46-78ch measures."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "Button labels; text links at weight 560."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Accession codes, toggle, scale bar, position numbers, box mark. Uppercase, wdth 72."
+      },
+      "pencil": {
+        "displayName": "Pencil",
+        "purpose": "Short handwritten annotations and index-card titles."
+      }
+    },
+    "shadows": [
+      {
+        "name": "glass-slide",
+        "value": "inset 0 1px 0 rgba(255,255,255,0.95), inset 0 -1px 0 rgba(120,160,140,0.35), 0 1px 2px rgba(29,42,47,0.12), 0 18px 36px -24px rgba(29,42,47,0.45)",
+        "purpose": "slides on the light box."
+      },
+      {
+        "name": "paper-card",
+        "value": "0 1px 1px rgba(29,42,47,0.1), 0 14px 30px -18px rgba(29,42,47,0.4)",
+        "purpose": "index cards."
+      },
+      {
+        "name": "box-label",
+        "value": "0 10px 22px -18px rgba(29,42,47,0.5)",
+        "purpose": "the footer label."
+      },
+      {
+        "name": "marker-lift",
+        "value": "0 1px 0 rgba(29,22,0,0.25), 0 6px 14px -8px rgba(29,22,0,0.45)",
+        "purpose": "primary buttons; deepens on hover."
+      },
+      {
+        "name": "recessed-floor",
+        "value": "inset 0 2px 10px rgba(0,0,0,0.45), inset 0 0 0 1px rgba(255,255,255,0.04)",
+        "purpose": "the tray floor."
+      },
+      {
+        "name": "channel",
+        "value": "inset 0 3px 8px rgba(0,0,0,0.75), inset 0 -1px 0 rgba(255,255,255,0.07)",
+        "purpose": "each closed slide's slot."
+      },
+      {
+        "name": "tray-glass",
+        "value": "inset 0 1px 0 rgba(255,255,255,0.22), 0 1px 0 rgba(0,0,0,0.3), 0 12px 24px -16px rgba(0,0,0,0.7)",
+        "purpose": "slides inside the box."
+      },
+      {
+        "name": "record-sheet",
+        "value": "0 16px 30px -18px rgba(0,0,0,0.7)",
+        "purpose": "the pulled record."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The single easing for transitions and entrances."
+      },
+      {
+        "name": "press",
+        "value": "220ms",
+        "purpose": "Button lift and arrow nudge."
+      },
+      {
+        "name": "link",
+        "value": "180ms",
+        "purpose": "Underline swelling into a highlighter stroke."
+      },
+      {
+        "name": "cue",
+        "value": "200ms",
+        "purpose": "Action cue fade and rise."
+      },
+      {
+        "name": "pull",
+        "value": "380ms",
+        "purpose": "Tray slide lift and slide-out."
+      },
+      {
+        "name": "record-in",
+        "value": "520ms",
+        "purpose": "Record sheet unroll via clip-path."
+      },
+      {
+        "name": "focus-in",
+        "value": "1600ms, 150ms delay",
+        "purpose": "Load moment: the specimen sharpens from a 10px blur and 1.035 scale."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "1ms",
+        "purpose": "All animation and transition durations collapse under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tray-single",
+        "value": "1000px"
+      },
+      {
+        "name": "stack",
+        "value": "860px"
+      },
+      {
+        "name": "upright-slide",
+        "value": "640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Marker-yellow action with a trailing stroked arrow; the only filled colour that means press me.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Write to Abhishek <svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M4 10h11M11 5.5 15.5 10 11 14.5\" /></svg></a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: 0.6em; padding: 0.78em 1.15em 0.8em; background: var(--marker, #f2b705); color: var(--marker-ink, #1d1600); font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-weight: 650; font-size: 1rem; letter-spacing: 0.005em; text-decoration: none; border-radius: 2px; box-shadow: 0 1px 0 rgba(29,22,0,0.25), 0 6px 14px -8px rgba(29,22,0,0.45); transition: transform 220ms cubic-bezier(0.16,1,0.3,1), box-shadow 220ms cubic-bezier(0.16,1,0.3,1), background-color 220ms; } .ds-btn svg { width: 1.1em; height: 1.1em; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; transition: transform 220ms cubic-bezier(0.16,1,0.3,1); } .ds-btn:hover { background: #ffc61a; transform: translateY(-1px); box-shadow: 0 2px 0 rgba(29,22,0,0.25), 0 10px 20px -10px rgba(29,22,0,0.5); } .ds-btn:hover svg { transform: translateX(3px); } .ds-btn:active { transform: translateY(0); } .ds-btn:focus-visible { outline: 2px solid var(--ink, #1d2a2f); outline-offset: 3px; box-shadow: 0 0 0 6px var(--marker, #f2b705); border-radius: 2px; }"
+    },
+    {
+      "name": "Text Link",
+      "kind": "nav",
+      "refersTo": "text-link",
+      "description": "Graphite Archivo link with a marker underline that swells into a highlighter stroke on hover.",
+      "html": "<a class=\"ds-textlink\" href=\"#\">LinkedIn</a>",
+      "css": ".ds-textlink { color: var(--ink, #1d2a2f); font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-weight: 560; font-size: 0.98rem; text-decoration-line: underline; text-decoration-color: var(--marker, #f2b705); text-decoration-thickness: 3px; text-underline-offset: 5px; transition: text-decoration-thickness 180ms, text-underline-offset 180ms; } .ds-textlink:hover { text-decoration-thickness: 0.5em; text-underline-offset: -0.25em; text-decoration-skip-ink: none; } .ds-textlink:focus-visible { outline: 2px solid var(--ink, #1d2a2f); outline-offset: 3px; box-shadow: 0 0 0 6px var(--marker, #f2b705); border-radius: 2px; }"
+    },
+    {
+      "name": "Stain Toggle",
+      "kind": "chip",
+      "refersTo": "stain-toggle",
+      "description": "Segmented Stained / Unstained switch; the pressed segment is marker yellow.",
+      "html": "<div class=\"ds-stain\" role=\"group\" aria-label=\"Portrait stain\"><button type=\"button\" aria-pressed=\"true\">Stained</button><button type=\"button\" aria-pressed=\"false\">Unstained</button></div>",
+      "css": ".ds-stain { display: inline-flex; box-shadow: 0 6px 14px -8px rgba(0,0,0,0.5); } .ds-stain button { cursor: pointer; font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-stretch: 72%; font-weight: 650; font-size: 0.74rem; letter-spacing: 0.07em; text-transform: uppercase; padding: 6px 10px; border: 1px solid var(--ink, #1d2a2f); background: var(--frost, #fcfbf8); color: var(--ink, #1d2a2f); } .ds-stain button + button { border-left: 0; } .ds-stain button[aria-pressed='true'] { background: var(--marker, #f2b705); color: var(--marker-ink, #1d1600); } .ds-stain button:hover:not([aria-pressed='true']) { background: #fff; } .ds-stain button:focus-visible { outline: 2px solid var(--ink, #1d2a2f); outline-offset: 3px; box-shadow: 0 0 0 6px var(--marker, #f2b705); border-radius: 2px; }"
+    },
+    {
+      "name": "Glass Slide",
+      "kind": "custom",
+      "refersTo": "slide-label",
+      "description": "The repeating unit: frosted label end with accession code, years and pencil note; clear glass field with the specimen result.",
+      "html": "<div class=\"ds-slide\"><div class=\"ds-slide__label\"><span class=\"ds-code\">AP-2022-MON</span><span class=\"ds-years\">2022–now</span><span class=\"ds-pencil\">Melbourne</span></div><div class=\"ds-slide__glass\"><span class=\"ds-org\">Monash University</span><span class=\"ds-result\">3 days → 5 hours</span></div></div>",
+      "css": ".ds-slide { display: grid; grid-template-columns: 27% 1fr; aspect-ratio: 3 / 1; min-width: 420px; border-radius: 3px; background: rgba(255,255,255,0.42); border: 1px solid var(--glass-edge, #8fae9f); box-shadow: inset 0 1px 0 rgba(255,255,255,0.95), inset 0 -1px 0 rgba(120,160,140,0.35), 0 1px 2px rgba(29,42,47,0.12), 0 18px 36px -24px rgba(29,42,47,0.45); overflow: hidden; color: var(--ink, #1d2a2f); } .ds-slide__label { display: flex; flex-direction: column; gap: 4px; padding: 14px; background: var(--frost, #fcfbf8); border-right: 1px solid rgba(143,174,159,0.6); } .ds-code { font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-stretch: 72%; font-weight: 600; font-size: 0.74rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--eosin, #c13b6b); } .ds-years { margin-top: auto; font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-weight: 700; font-variant-numeric: tabular-nums; } .ds-pencil { font-family: var(--f-pencil, 'Reenie Beanie', cursive); font-size: 1.35rem; line-height: 0.9; color: #5d6a70; } .ds-slide__glass { display: flex; flex-direction: column; padding: 14px 18px; } .ds-org { font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-weight: 700; } .ds-result { margin-top: auto; font-family: var(--f-text, 'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif); font-weight: 450; font-size: 1.6rem; line-height: 1.02; letter-spacing: -0.02em; color: var(--eosin, #c13b6b); }"
+    },
+    {
+      "name": "Tray Slot",
+      "kind": "custom",
+      "refersTo": "tray-channel",
+      "description": "A slide seated in a recessed channel inside the box; lifts on hover and reveals a marker action cue.",
+      "html": "<div class=\"ds-tray\"><div class=\"ds-channel\"><a class=\"ds-tslide\" href=\"#\"><span class=\"ds-tlabel\"><span class=\"ds-tcode\">AP-2019-AU0</span><b>2019–2022</b></span><span class=\"ds-tglass\"><b>Auth0 by Okta</b><span class=\"ds-tresult\">OIDC · OAuth 2.0 · SAML</span><span class=\"ds-cue\">Read record</span></span></a></div></div>",
+      "css": ".ds-tray { padding: 18px; background: var(--haem-mid, #2c1e42); border-radius: 6px; box-shadow: inset 0 2px 10px rgba(0,0,0,0.45), inset 0 0 0 1px rgba(255,255,255,0.04); } .ds-channel { padding: 5px; border-radius: 4px; background: #160e22; box-shadow: inset 0 3px 8px rgba(0,0,0,0.75), inset 0 -1px 0 rgba(255,255,255,0.07); } .ds-tslide { position: relative; display: grid; grid-template-columns: 27% 1fr; min-height: 140px; border-radius: 3px; text-decoration: none; color: var(--on-haem, #efe9f7); background: rgba(236,244,240,0.07); border: 1px solid rgba(170,205,188,0.5); box-shadow: inset 0 1px 0 rgba(255,255,255,0.22), 0 1px 0 rgba(0,0,0,0.3), 0 12px 24px -16px rgba(0,0,0,0.7); overflow: hidden; transition: transform 380ms cubic-bezier(0.16,1,0.3,1), box-shadow 380ms cubic-bezier(0.16,1,0.3,1); font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); } .ds-tslide:hover { transform: translateY(-3px); background: rgba(236,244,240,0.11); box-shadow: inset 0 1px 0 rgba(255,255,255,0.28), 0 2px 0 rgba(0,0,0,0.3), 0 22px 34px -18px rgba(0,0,0,0.85); } .ds-tslide:focus-visible { outline: 2px solid var(--ink, #1d2a2f); outline-offset: 3px; box-shadow: 0 0 0 6px var(--marker, #f2b705); border-radius: 2px; } .ds-tlabel { display: flex; flex-direction: column; justify-content: space-between; padding: 12px; background: var(--frost, #fcfbf8); color: var(--ink, #1d2a2f); } .ds-tcode { font-stretch: 72%; font-weight: 600; font-size: 0.74rem; letter-spacing: 0.06em; color: var(--eosin, #c13b6b); } .ds-tglass { display: flex; flex-direction: column; padding: 12px 16px; } .ds-tresult { margin-top: auto; font-family: var(--f-text, 'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif); font-size: 1.5rem; line-height: 1.02; color: var(--eosin-bright, #f27aa3); } .ds-cue { position: absolute; right: 12px; bottom: 12px; font-stretch: 72%; font-weight: 700; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 7px 2px; background: var(--marker, #f2b705); color: var(--marker-ink, #1d1600); border-radius: 1px; opacity: 0; transform: translateY(4px); transition: opacity 200ms cubic-bezier(0.16,1,0.3,1), transform 200ms cubic-bezier(0.16,1,0.3,1); } .ds-tslide:hover .ds-cue, .ds-tslide:focus-visible .ds-cue { opacity: 1; transform: none; }"
+    },
+    {
+      "name": "Index Card",
+      "kind": "card",
+      "refersTo": "index-card",
+      "description": "Ruled card stock on the lid: pencil title, eosin header line, 1.75rem baseline, a slight rotation.",
+      "html": "<article class=\"ds-card\"><h3 class=\"ds-card__title\">What I work on</h3><ul><li><strong>Imaging pipelines.</strong> Microscopy processing from days to hours.</li><li><strong>Production systems.</strong> Architecture owned end to end.</li></ul></article>",
+      "css": ".ds-card { --line: 1.75rem; max-width: 520px; rotate: -0.6deg; padding: calc(var(--line) * 0.75) 28px var(--line); color: var(--ink, #1d2a2f); font-family: var(--f-text, 'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif); background-color: #fdfdfb; background-image: linear-gradient(#c13b6b, #c13b6b), repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--line) - 1px), rgba(58,33,96,0.16) calc(var(--line) - 1px), rgba(58,33,96,0.16) var(--line)); background-size: 100% 2px, 100% 100%; background-position: 0 calc(var(--line) * 2.5 - 1px), 0 calc(var(--line) * 2.5); background-repeat: no-repeat, repeat-y; box-shadow: 0 1px 1px rgba(29,42,47,0.1), 0 14px 30px -18px rgba(29,42,47,0.4); line-height: var(--line); } .ds-card__title { margin: 0; height: calc(var(--line) * 1.75); display: flex; align-items: flex-end; padding-bottom: 4px; font-family: var(--f-pencil, 'Reenie Beanie', cursive); font-weight: 400; font-size: 2.3rem; line-height: 1; color: var(--haem, #3a2160); } .ds-card ul { margin: calc(var(--line) * 0.25) 0 0; padding: 0; list-style: none; font-size: 1rem; } .ds-card strong { font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-weight: 650; font-size: 0.98rem; }"
+    },
+    {
+      "name": "Record Sheet",
+      "kind": "card",
+      "refersTo": "record",
+      "description": "The frost sheet unrolled from a pulled slide: eosin organisation note and haematoxylin-dotted list.",
+      "html": "<div class=\"ds-record\"><p class=\"ds-record__note\">Firmware for 3,000+ monitoring units</p><ul><li>70% fewer site visits.</li><li>40% lower unit cost.</li></ul></div>",
+      "css": ".ds-record { max-width: 78ch; padding: 22px 28px 24px; background: var(--frost, #fcfbf8); color: var(--ink, #1d2a2f); border-radius: 2px; box-shadow: 0 16px 30px -18px rgba(0,0,0,0.7); font-family: var(--f-text, 'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif); } .ds-record__note { margin: 0 0 12px; font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-weight: 560; font-size: 0.9rem; color: var(--eosin, #c13b6b); } .ds-record ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; } .ds-record li { position: relative; padding-left: 1.2em; font-size: 0.98rem; line-height: 1.55; } .ds-record li::before { content: ''; position: absolute; left: 0; top: 0.62em; width: 0.45em; height: 0.45em; border-radius: 50%; background: var(--haem, #3a2160); }"
+    },
+    {
+      "name": "Header Bar",
+      "kind": "nav",
+      "refersTo": "text-link",
+      "description": "Box mark in condensed caps on the left, the email as a marker-underlined link on the right.",
+      "html": "<header class=\"ds-bar\"><span class=\"ds-bar__box\">Box AP · zeroth.me</span><a class=\"ds-bar__mail\" href=\"#\">hello@zeroth.me</a></header>",
+      "css": ".ds-bar { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 22px 0 18px; color: var(--ink, #1d2a2f); font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); } .ds-bar__box { font-stretch: 72%; font-weight: 650; font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; } .ds-bar__mail { color: inherit; font-weight: 560; font-size: 0.95rem; text-decoration: underline; text-decoration-color: var(--marker, #f2b705); text-decoration-thickness: 3px; text-underline-offset: 5px; transition: text-decoration-thickness 180ms, text-underline-offset 180ms; } .ds-bar__mail:hover { text-decoration-thickness: 0.5em; text-underline-offset: -0.25em; text-decoration-skip-ink: none; } .ds-bar__mail:focus-visible { outline: 2px solid var(--ink, #1d2a2f); outline-offset: 3px; box-shadow: 0 0 0 6px var(--marker, #f2b705); border-radius: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Slide Box",
+    "overview": "The whole system is a pathology lab's slide box seen on a light box. Every chapter of the work is a glass slide: a frosted label end on the left carrying an accession code, dates and a pencilled note, and a clear glass field on the right holding the specimen, which is the result itself. The ground is the warm white of a light box; the dark section is the inside of the box, where slides sit in recessed channels and can be pulled out to read their full record.\n\nColour comes from histology, not from a brand palette. Eosin pink and haematoxylin purple are the stain; they mark the specimen, the accession codes and the box interior. The portrait is not tinted, it is stained: a real SVG gradient-map filter (`#he-stain`) maps its luminance onto the H&E ramp, and a toggle shows it unstained. Marker yellow sits outside the stain entirely, because it means one thing: you can press this.\n\nType behaves like lab stationery. Archivo's width axis does three jobs: condensed for label-printer codes, normal for actions, wide and heavy for names and headings. Source Serif 4 carries reading text and the specimen results. Reenie Beanie is the pencil, kept to short annotations and index-card titles.",
+    "keyCharacteristics": [
+      "Two grounds only: the light box (#f3f1ea) and the box interior (haematoxylin dark).",
+      "Glass slides at a 3:1 ratio with a frosted label end, a glass-edge stroke and a tight 3px corner.",
+      "The H&E stain is a filter on real imagery, never a colour overlay.",
+      "Accession codes on every slide and on the box label.",
+      "Marker yellow appears only on interactive things.",
+      "Index cards on ruled stock with a red header line, slightly rotated, on the lid."
+    ],
+    "rules": [
+      {
+        "name": "The Marker Rule",
+        "body": "Marker yellow is reserved for things you can press: buttons, link underlines, pressed toggles, action cues, focus halos. If it cannot be clicked, focused or selected, it is not yellow.",
+        "section": "colors"
+      },
+      {
+        "name": "The Stain Rule",
+        "body": "Eosin and haematoxylin belong to specimens, accession codes, the index cards' printed ink (title, header line, rules) and the box interior. Imagery is stained through the `#he-stain` gradient-map filter (greyscale, gamma 0.55, then a table ramp from haematoxylin through eosin to near-white), never by tinting, blending or overlaying colour, and the unstained original stays one toggle away.",
+        "section": "colors"
+      },
+      {
+        "name": "The Width Axis Rule",
+        "body": "Archivo's width says what the text is: 72% for codes and numbers, 100% for actions, 112% for names and headings. Do not fake condensation or extension with letter-spacing or a second family.",
+        "section": "typography"
+      },
+      {
+        "name": "The Pencil Rule",
+        "body": "Reenie Beanie is for a few words at a time: annotations, places, index-card titles. Never body copy, data, or anything a visitor must read to act. Purely decorative notes are hidden from assistive technology.",
+        "section": "typography"
+      },
+      {
+        "name": "The Inverted Box Rule",
+        "body": "On the light box things lift; inside the box things are recessed. A surface's shadow follows where the object physically sits.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** put an accession code (AP-NN or AP-YYYY-XXX, eosin, condensed caps) on the frosted label end of every slide and on the box label.",
+      "**Do** keep marker yellow (#f2b705) on interactive elements only, with marker ink text on it.",
+      "**Do** stain imagery with the `#he-stain` SVG filter and keep an unstained view reachable.",
+      "**Do** use Archivo's width axis to separate codes (72), actions (100) and names (112).",
+      "**Do** lift objects on the light box and recess them inside the tray.",
+      "**Do** keep radii between 1px and 6px; slides are 3px.",
+      "**Do** hold index-card content to the 1.75rem rule.",
+      "**Do** honour reduced motion: the focus-in blur, record unroll and hover lifts collapse to near-zero duration."
+    ],
+    "donts": [
+      "**Don't** use marker yellow for decoration, emphasis, backgrounds or headings.",
+      "**Don't** tint photographs with colour overlays, blend modes or CSS hue filters; the stain is the gradient map.",
+      "**Don't** use eosin or haematoxylin as general UI accents away from specimens, codes, index-card ink or the box interior.",
+      "**Don't** place accession codes or small caps labels above headings as section kickers; codes label slides, they do not introduce sections.",
+      "**Don't** set body copy, data or calls to action in Reenie Beanie.",
+      "**Don't** add a fourth typeface or substitute a system face for Archivo.",
+      "**Don't** use hard offset shadows; depth is soft, tinted and physical.",
+      "**Don't** introduce pill shapes or radii above 6px."
+    ]
+  }
+}
