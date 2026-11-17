@@ -1,43 +1,44 @@
-# All page content lives here. Edit through Pages CMS (see .pages.yml) or by hand.
-
 name: Abhishek Patil
 role: Scientist & software architect
 location: Melbourne, Australia
 portrait: /images/portrait.jpg
-portrait_alt: Abhishek Patil, smiling, in a grey beanie and a yellow t-shirt in front of green foliage
-
-headline: I study cells under the microscope, and I build software that holds up in production.
-intro: >-
-  PhD in biomedical imaging, Research Fellow at Monash University, and founder of Zeroth,
-  an independent consultancy. Over fifteen years I've written firmware for survey instruments
-  in Paris, digitised land registration for a government in the UAE, built an EHR platform for
-  doctors, and kept enterprise sign-in running at Auth0/Okta. The method doesn't change:
-  understand the domain properly, then design something that holds up under real use.
-
+portrait_alt: Abhishek Patil, smiling, in a grey beanie and a yellow t-shirt in
+  front of green foliage
+headline: I study cells under the microscope, and I build software that holds up
+  in production.
+intro: "PhD in biomedical imaging, Research Fellow at Monash University, and
+  founder of Zeroth, an independent consultancy. Over fifteen years I've written
+  firmware for survey instruments in Paris, digitised land registration for a
+  government in the UAE, built an EHR platform for doctors, and kept enterprise
+  sign-in running at Auth0/Okta. The method doesn't change: understand the
+  domain properly, then design something that holds up under real use."
 email: abhishek@zeroth.me
 links:
   linkedin: https://www.linkedin.com/in/abhishekjp
-  github: ""
-  scholar: ""
-
-# The index card inside the box lid
+  github: https://github.com/zeroth/
+  scholar: https://scholar.google.com/citations?user=VzaliCYAAAAJ&hl=en
 focus:
   - title: Scientific computing & bioimage analysis
     text: Microscopy pipelines, image processing and quantitative methods.
   - title: AI systems
-    text: LLM applications, RAG, agentic workflows and on-device inference, built to run in production rather than as demos.
+    text: LLM applications, RAG, agentic workflows and on-device inference, built to
+      run in production rather than as demos.
   - title: Machine learning
     text: Model development, deep learning for vision, ML DevOps.
   - title: Product architecture
-    text: Full-stack platforms from data model to UI, built to grow from MVP to scale.
+    text: Full-stack platforms from data model to UI, built to grow from MVP to
+      scale.
   - title: Healthcare technology
     text: EHR and telemedicine systems with FHIR interoperability.
   - title: Identity & security
-    text: Authentication and authorisation design, informed by three years at Auth0/Okta.
-
-stack: [Python, C++, TypeScript / Node, SQL, Docker]
-
-# One slide per chapter, newest first.
+    text: Authentication and authorisation design, informed by three years at
+      Auth0/Okta.
+stack:
+  - Python
+  - C++
+  - TypeScript / Node
+  - SQL
+  - Docker
 experience:
   - code: AP-2025-ZER
     org: Zeroth
@@ -49,9 +50,10 @@ experience:
     specimen: Idea → production
     specimen_note: architecture, data model and delivery, owned end to end
     points:
-      - Help clients move from an idea to a production system by owning architecture, data model, and delivery end to end.
-      - Design and build AI-native products, including LLM, RAG, and agentic workflows, taking them from MVP to paying users.
-
+      - Help clients move from an idea to a production system by owning
+        architecture, data model, and delivery end to end.
+      - Design and build AI-native products, including LLM, RAG, and agentic
+        workflows, taking them from MVP to paying users.
   - code: AP-2022-MON
     org: Monash University
     role: Research Fellow
@@ -61,10 +63,14 @@ experience:
     specimen: 3 days → 5 hours
     specimen_note: to process a time-series stack of single-molecule images
     points:
-      - Automated single-molecule analysis that labs previously did by hand. GPU-batched Gaussian fitting and Spotiflow-based detection cut processing of time-series stacks from ~3 days to ~5 hours.
-      - Built reusable pipelines (detection, fitting, masking, PAPA analysis, data aggregation) adopted by the Monash advanced bio-imaging facility, making results reproducible across experiments.
-      - Contributed computational methods to more than 10 publications, turning imaging data into publishable, quantitative findings.
-
+      - Automated single-molecule analysis that labs previously did by hand.
+        GPU-batched Gaussian fitting and Spotiflow-based detection cut
+        processing of time-series stacks from ~3 days to ~5 hours.
+      - Built reusable pipelines (detection, fitting, masking, PAPA analysis,
+        data aggregation) adopted by the Monash advanced bio-imaging facility,
+        making results reproducible across experiments.
+      - Contributed computational methods to more than 10 publications, turning
+        imaging data into publishable, quantitative findings.
   - code: AP-2019-AU0
     org: Auth0 by Okta
     role: Developer Support Engineer
@@ -74,9 +80,12 @@ experience:
     specimen: OIDC · OAuth 2.0 · SAML
     specimen_note: enterprise sign-in kept running in production
     points:
-      - Resolved complex authentication and authorisation issues (OIDC, OAuth 2.0, SAML, SSO, MFA) for enterprise customers, keeping business-critical sign-in flows running in production.
-      - Acted as the technical bridge between customers and engineering by reproducing edge-case bugs, diagnosing integration failures, and escalating clear, actionable reports that sped up fixes.
-
+      - Resolved complex authentication and authorisation issues (OIDC, OAuth
+        2.0, SAML, SSO, MFA) for enterprise customers, keeping business-critical
+        sign-in flows running in production.
+      - Acted as the technical bridge between customers and engineering by
+        reproducing edge-case bugs, diagnosing integration failures, and
+        escalating clear, actionable reports that sped up fixes.
   - code: AP-2017-IND
     org: Independent
     role: Software Consultant
@@ -86,9 +95,11 @@ experience:
     specimen: 5 h → 2 h
     specimen_note: model deployment time, notebooks to production
     points:
-      - Took clients' ML models from notebooks to production by building MLOps pipelines and REST APIs, which cut deployment time from ~5 hours to ~2 hours.
-      - Exposed ML infrastructure through APIs so non-specialist teams could use model outputs directly in their products.
-
+      - Took clients' ML models from notebooks to production by building MLOps
+        pipelines and REST APIs, which cut deployment time from ~5 hours to ~2
+        hours.
+      - Exposed ML infrastructure through APIs so non-specialist teams could use
+        model outputs directly in their products.
   - code: AP-2014-AJM
     org: Ajman Government
     org_note: Department of Land and Real Estate Regulation
@@ -99,11 +110,16 @@ experience:
     specimen: Paper → online
     specimen_note: land and real-estate services under the UAE mGov initiative
     points:
-      - Digitised manual land and real-estate processes under the UAE mGov initiative, replacing paper-based workflows with online services and significantly reducing processing turnaround for citizens and staff.
-      - Shaped the department's web and mobile strategy, bringing core property services online so citizens could transact without visiting a service centre.
-      - Built inter-departmental data APIs that replaced paper-based information requests between government entities.
-      - Delivered an internal collaboration platform that automated employee-welfare workflows across the department.
-
+      - Digitised manual land and real-estate processes under the UAE mGov
+        initiative, replacing paper-based workflows with online services and
+        significantly reducing processing turnaround for citizens and staff.
+      - Shaped the department's web and mobile strategy, bringing core property
+        services online so citizens could transact without visiting a service
+        centre.
+      - Built inter-departmental data APIs that replaced paper-based information
+        requests between government entities.
+      - Delivered an internal collaboration platform that automated
+        employee-welfare workflows across the department.
   - code: AP-2013-NUV
     org: Nuvenote
     role: Head of Technology
@@ -113,10 +129,11 @@ experience:
     specimen: −80%
     specimen_note: doctors' documentation time on an EHR note-taking platform
     points:
-      - Architected an EHR note-taking platform that reduced doctors' documentation time by 80%.
-      - Integrated medical equipment data directly into patient records, removing manual transcription and enabling analysis.
+      - Architected an EHR note-taking platform that reduced doctors'
+        documentation time by 80%.
+      - Integrated medical equipment data directly into patient records,
+        removing manual transcription and enabling analysis.
       - Built the CRM layer behind user onboarding and retention.
-
   - code: AP-2011-SXN
     org: SIXENSE Soldata
     org_note: VINCI Construction subsidiary, automated infrastructure monitoring
@@ -127,11 +144,15 @@ experience:
     specimen: 3,000+ units
     specimen_note: Cyclops Nomad controllers deployed worldwide, including Melbourne Metro
     points:
-      - Developed Cyclops Nomad, a low-power ARM / embedded Linux controller for Sixense's flagship Cyclops monitoring platform, now deployed on 3,000+ units worldwide, including Melbourne Metro.
-      - Enabled site engineers to configure, run and monitor theodolites remotely, cutting routine site visits by 70%.
-      - Designed a custom sync protocol that kept monitoring data intact across unreliable connectivity on tunnelling and construction sites.
-      - Re-engineered the controller at 40% lower unit cost and with longer battery life, making remote and off-grid deployment practical.
-
+      - Developed Cyclops Nomad, a low-power ARM / embedded Linux controller for
+        Sixense's flagship Cyclops monitoring platform, now deployed on 3,000+
+        units worldwide, including Melbourne Metro.
+      - Enabled site engineers to configure, run and monitor theodolites
+        remotely, cutting routine site visits by 70%.
+      - Designed a custom sync protocol that kept monitoring data intact across
+        unreliable connectivity on tunnelling and construction sites.
+      - Re-engineered the controller at 40% lower unit cost and with longer
+        battery life, making remote and off-grid deployment practical.
   - code: AP-2009-VCL
     org: VCreate Logic
     role: Senior Software Engineer
@@ -141,9 +162,10 @@ experience:
     specimen: Qt / QML
     specimen_note: framework work, internal tooling and client training
     points:
-      - Extended the GCF framework to newer Qt releases and the web, which kept client products on a supported platform.
-      - Built internal tooling that shortened the development cycle, and trained client teams in Qt/QML so they became self-sufficient.
-
+      - Extended the GCF framework to newer Qt releases and the web, which kept
+        client products on a supported platform.
+      - Built internal tooling that shortened the development cycle, and trained
+        client teams in Qt/QML so they became self-sufficient.
   - code: AP-2006-TLB
     org: ThinkLABS
     org_note: IIT Bombay-incubated educational robotics, acquired by FitKids in 2016
@@ -154,10 +176,16 @@ experience:
     specimen: 35,000+ students
     specimen_note: reached by the robotics kits and software
     points:
-      - Early engineer on CiMPLE, India's first visual programming language for robotics and the software core of the company's flagship Robotic Learning System.
-      - Built CiMPLE's storage and persistence framework, the serial communication layer for the robotic arm, and the TRiC editor for the 8051-based iTRIx board.
-      - CiMPLE was chosen from 85 competing entries worldwide as the first brand ambassador of the Nokia Qt platform; the Robotic Learning System won the Jury's Choice award for Best Innovation in Science Education at the World Education Summit 2011.
-
+      - Early engineer on CiMPLE, India's first visual programming language for
+        robotics and the software core of the company's flagship Robotic
+        Learning System.
+      - Built CiMPLE's storage and persistence framework, the serial
+        communication layer for the robotic arm, and the TRiC editor for the
+        8051-based iTRIx board.
+      - CiMPLE was chosen from 85 competing entries worldwide as the first brand
+        ambassador of the Nokia Qt platform; the Robotic Learning System won the
+        Jury's Choice award for Best Innovation in Science Education at the
+        World Education Summit 2011.
 education:
   - degree: PhD, Biomedical Imaging
     school: Monash University
@@ -168,11 +196,9 @@ education:
   - degree: BSc, Information Technology
     school: Vidyalankar School of Information Technology
     year: 2004–2008
-
 certifications:
   - Machine Learning Specialization
   - Mathematics for Machine Learning and Data Science Specialization
-
 languages:
   - name: English
     level: Full professional
@@ -182,7 +208,7 @@ languages:
     level: Native
   - name: French
     level: Elementary
-
 open_slot:
   title: This slot is open.
-  text: I'm taking on collaborations in research software, AI, and early-stage product development. Tell me what you're working on.
+  text: I'm taking on collaborations in research software, AI, and early-stage
+    product development. Tell me what you're working on.
