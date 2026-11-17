@@ -43,7 +43,7 @@ experience:
     org: Zeroth
     org_note: Independent consultancy
     role: Founder & Principal Architect
-    start: 2025
+    start: "2025"
     end: now
     place: Melbourne
     specimen: Idea → production
@@ -55,7 +55,7 @@ experience:
   - code: AP-2022-MON
     org: Monash University
     role: Research Fellow
-    start: 2022
+    start: "2022"
     end: now
     place: Melbourne
     specimen: 3 days → 5 hours
@@ -68,8 +68,8 @@ experience:
   - code: AP-2019-AU0
     org: Auth0 by Okta
     role: Developer Support Engineer
-    start: 2019
-    end: 2022
+    start: "2019"
+    end: "2022"
     place: Melbourne
     specimen: OIDC · OAuth 2.0 · SAML
     specimen_note: enterprise sign-in kept running in production
@@ -80,8 +80,8 @@ experience:
   - code: AP-2017-IND
     org: Independent
     role: Software Consultant
-    start: 2017
-    end: 2020
+    start: "2017"
+    end: "2020"
     place: Remote
     specimen: 5 h → 2 h
     specimen_note: model deployment time, notebooks to production
@@ -93,8 +93,8 @@ experience:
     org: Ajman Government
     org_note: Department of Land and Real Estate Regulation
     role: Project Development Manager
-    start: 2014
-    end: 2018
+    start: "2014"
+    end: "2018"
     place: United Arab Emirates
     specimen: Paper → online
     specimen_note: land and real-estate services under the UAE mGov initiative
@@ -107,8 +107,8 @@ experience:
   - code: AP-2013-NUV
     org: Nuvenote
     role: Head of Technology
-    start: 2013
-    end: 2014
+    start: "2013"
+    end: "2014"
     place: Paris
     specimen: −80%
     specimen_note: doctors' documentation time on an EHR note-taking platform
@@ -121,8 +121,8 @@ experience:
     org: SIXENSE Soldata
     org_note: VINCI Construction subsidiary, automated infrastructure monitoring
     role: Embedded Software Engineer
-    start: 2011
-    end: 2013
+    start: "2011"
+    end: "2013"
     place: Paris
     specimen: 3,000+ units
     specimen_note: Cyclops Nomad controllers deployed worldwide, including Melbourne Metro
@@ -135,8 +135,8 @@ experience:
   - code: AP-2009-VCL
     org: VCreate Logic
     role: Senior Software Engineer
-    start: 2009
-    end: 2011
+    start: "2009"
+    end: "2011"
     place: Bengaluru
     specimen: Qt / QML
     specimen_note: framework work, internal tooling and client training
@@ -148,8 +148,8 @@ experience:
     org: ThinkLABS
     org_note: IIT Bombay-incubated educational robotics, acquired by FitKids in 2016
     role: Software Engineer
-    start: 2006
-    end: 2009
+    start: "2006"
+    end: "2009"
     place: Mumbai
     specimen: 35,000+ students
     specimen_note: reached by the robotics kits and software
