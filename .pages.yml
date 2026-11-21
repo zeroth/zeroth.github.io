@@ -12,7 +12,7 @@ content:
       - { name: name, label: Name, type: string }
       - { name: role, label: Role, type: string }
       - { name: location, label: Location, type: string }
-      - { name: portrait, label: Portrait, type: image, description: "Shown as the stained specimen on slide 01. Square-ish photos work best." }
+      - { name: portrait, label: Portrait, type: image, description: "The full-height black-and-white portrait on the opening spread. A tall, high-resolution photo works best." }
       - { name: portrait_alt, label: Portrait description (alt text), type: string }
       - { name: headline, label: Headline, type: text }
       - { name: intro, label: Intro, type: text }
@@ -25,27 +25,33 @@ content:
           - { name: github, label: GitHub URL, type: string, description: "Leave empty to hide" }
           - { name: scholar, label: Google Scholar URL, type: string, description: "Leave empty to hide" }
       - name: focus
-        label: What I work on (index card)
+        label: What I work on
         type: object
         list: true
         fields:
           - { name: title, label: Title, type: string }
           - { name: text, label: Text, type: text }
-      - { name: stack, label: Stack, type: string, list: true }
-      - name: experience
-        label: Experience (one slide each, newest first)
+      - name: stack
+        label: Stack (tools, grouped by area)
         type: object
         list: true
         fields:
-          - { name: code, label: Accession code, type: string, description: "e.g. AP-2025-ZER" }
+          - { name: area, label: Area, type: string, description: "e.g. Imaging & ML" }
+          - { name: tools, label: Tools, type: string, list: true }
+      - name: experience
+        label: Experience (one spread each, newest first)
+        type: object
+        list: true
+        fields:
+          - { name: code, label: Code (not shown on the page), type: string, description: "e.g. AP-2025-ZER" }
           - { name: org, label: Organisation, type: string }
           - { name: org_note, label: Organisation note, type: string }
           - { name: role, label: Role, type: string }
           - { name: start, label: Start year, type: string }
           - { name: end, label: End year (or 'now'), type: string }
           - { name: place, label: Place, type: string }
-          - { name: specimen, label: Specimen (the headline result), type: string }
-          - { name: specimen_note, label: Specimen note, type: string }
+          - { name: specimen, label: Result (the big headline number or phrase), type: string }
+          - { name: specimen_note, label: Result note, type: string }
           - { name: points, label: Details, type: text, list: true }
       - name: education
         label: Education

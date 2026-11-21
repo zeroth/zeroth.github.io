@@ -11,14 +11,14 @@ Scope: the whole site, one page. Mode: Persuade. Audience: consulting clients an
 
 ## Direction contract
 
-THESIS: A career archived the way a lab archives specimens: one glass slide per chapter in a numbered slide box. Refuses the developer-portfolio template (hero split + cards + timeline).
+THESIS: zeroth.me as a magazine feature in the Brodovitch Harper's Bazaar tradition: every spread pairs one image or one large result with a headline that answers it across a gutter seam. Refuses the developer-portfolio template (hero split + cards + timeline) and retires the slide-box world.
 
-OWN-WORLD: Light-box white ground (#f3f1ea), clear glass slides with frosted label ends, H&E stain: eosin pink #c13b6b and haematoxylin purple #3a2160 carrying the specimen fields, graphite ink #1d2a2f, marker yellow #f2b705 only on clickable things. Type: Archivo (width axis: condensed label-printer codes, wide name), Source Serif 4 for prose, Reenie Beanie for short pencil notes. Accession codes on every slide.
+OWN-WORLD: Paper white #fbfaf7, ink black #141414, photogravure greys, one lipstick red #c8102e reserved for anything pressable. Bodoni Moda (optical-size Didone, hairline contrast) for display, decks and reading text; Jost (geometric sans) for captions, folios and buttons. Hairline rules, a vertical gutter seam, square corners, no shadows.
 
-STORY: Visitor sees a scientist (stained specimen, PhD, Monash) who ships production systems (Sixense, Ajman, Auth0, Zeroth), sees real numbers on every slide, and writes an email.
+STORY: The visitor opens a feature about a scientist who builds microscopy software and ships production systems, reads one big real result per role, and writes an email.
 
-FIRST VIEWPORT: One full-width 3:1 slide: frosted label left (accession AP-01, name, role, Melbourne), glass right holding the portrait as H&E duotone under a cover-slip, with a working stained/unstained toggle. Under it, the thesis sentence large and the yellow email action. Vertical slide on mobile.
+FIRST VIEWPORT: Left page: the portrait as a full-height grey photogravure bleeding to the left edge. Right page: name huge in Bodoni hairline, role in italic, the headline as the deck, intro, the red email button and links. A hairline seam between pages. Mobile stacks pose then answer, seam becomes a horizontal rule.
 
-FORM: Slide box, my grounded list position 5, seed key af4d52ff. Signature interaction: pulling a slide from its slot to read the full record (details/summary, works without JS); load moment: the specimen comes into focus. Raises: empty slot 11 is the contact action (seven-segment ghost cells); yellow only on actions (warm consumer); accession code on every slide (doujin catalog).
+FORM: Magazine spread (challenger, competitive verdict), user-chosen over the assigned lab notebook, seed key 40f0ea55. Signature interaction: each role spread mirrors left/right, its result set at display size across the seam, and opens to the full record (details/summary, no JS needed); load moment: the portrait wipes open from the seam.
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance

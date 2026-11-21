@@ -1,21 +1,21 @@
 ---
-import '@fontsource-variable/archivo/wdth.css';
-import '@fontsource-variable/source-serif-4/opsz.css';
-import '@fontsource-variable/source-serif-4/opsz-italic.css';
-import '@fontsource/reenie-beanie/400.css';
+import '@fontsource-variable/bricolage-grotesque/opsz.css';
+import '@fontsource-variable/literata/opsz.css';
+import '@fontsource-variable/literata/opsz-italic.css';
 import '../styles/global.css';
 import { profile as p, portraitExists } from '../lib/profile';
 
-const firstName = p.name.split(' ')[0];
+const [firstName, ...rest] = p.name.split(' ');
+const lastName = rest.join(' ');
 const years = (j: { start: string; end: string }) => `${j.start}–${j.end}`;
-const pad = (n: number) => String(n).padStart(2, '0');
 const mail = `mailto:${p.email}`;
 const links = [
   { label: 'LinkedIn', href: p.links.linkedin },
   { label: 'GitHub', href: p.links.github },
   { label: 'Google Scholar', href: p.links.scholar },
 ].filter((l) => l.href);
-const openSlot = p.experience.length + 2; // slide 01 is the hero
+const city = p.location.split(',')[0];
+const since = p.experience.at(-1)?.start;
 const description = `${p.name}: ${p.role.toLowerCase()} in ${p.location}. ${p.headline}`;
 ---
 
@@ -28,7 +28,7 @@ const description = `${p.name}: ${p.role.toLowerCase()} in ${p.location}. ${p.he
     <meta name="description" content={description} />
     <link rel="canonical" href="https://zeroth.me/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <meta name="theme-color" content="#f3f1ea" />
+    <meta name="theme-color" content="#fbfaf7" />
     <meta property="og:type" content="profile" />
     <meta property="og:title" content={p.name} />
     <meta property="og:description" content={p.headline} />
@@ -37,238 +37,170 @@ const description = `${p.name}: ${p.role.toLowerCase()} in ${p.location}. ${p.he
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
-    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
-      <filter id="he-stain" color-interpolation-filters="sRGB">
-        <feColorMatrix type="matrix" values="0.30 0.59 0.11 0 0  0.30 0.59 0.11 0 0  0.30 0.59 0.11 0 0  0 0 0 1 0" />
-        <feComponentTransfer>
-          <feFuncR type="gamma" amplitude="1" exponent="0.55" offset="0" />
-          <feFuncG type="gamma" amplitude="1" exponent="0.55" offset="0" />
-          <feFuncB type="gamma" amplitude="1" exponent="0.55" offset="0" />
-        </feComponentTransfer>
-        <feComponentTransfer>
-          <feFuncR type="table" tableValues="0.227 0.545 0.847 0.973 0.99" />
-          <feFuncG type="table" tableValues="0.129 0.227 0.384 0.863 0.95" />
-          <feFuncB type="table" tableValues="0.376 0.494 0.561 0.902 0.96" />
-        </feComponentTransfer>
-      </filter>
-    </svg>
 
-    <header class="bar wrap">
-      <span class="bar__box">Box AP <span aria-hidden="true">·</span> zeroth.me</span>
-      <a class="bar__mail action" href={mail}>{p.email}</a>
+    <header class="masthead">
+      <span class="masthead__name">zeroth</span>
+      <span class="masthead__folio">{city} · {new Date().getFullYear()}</span>
+      <a class="masthead__mail textlink" href={mail}>{p.email}</a>
     </header>
 
     <main id="main">
-      <!-- ── Slide 01 ─────────────────────────────────────────── -->
-      <section class="hero wrap" aria-labelledby="name">
-        <div class="slide slide--hero">
-          <div class="slide__label frost">
-            <h1 id="name" class="label-name">{p.name}</h1>
-            <p class="label-role">{p.role}</p>
-            <span class="code">AP-01 · {p.location.split(',')[0]}</span>
-            <p class="pencil label-note" aria-hidden="true">n = 1, stained H&amp;E</p>
-          </div>
+      <!-- Opening spread: the portrait poses, the name answers. -->
+      <section class="spread spread--open" aria-labelledby="name">
+        <figure class="plate">
+          {portraitExists ? (
+            <img
+              src={p.portrait}
+              alt={p.portrait_alt}
+              width="768"
+              height="804"
+              decoding="async"
+              fetchpriority="high"
+            />
+          ) : (
+            <div class="plate__pending"><span>Portrait pending: add {p.portrait}</span></div>
+          )}
+          <figcaption>{p.name}, {city}.</figcaption>
+        </figure>
 
-          <div class="slide__glass">
-            <div class="coverslip" data-stain="he">
-              {portraitExists ? (
-                <div class="specimen">
-                  <img
-                    src={p.portrait}
-                    alt={p.portrait_alt}
-                    width="768"
-                    height="804"
-                    decoding="async"
-                    fetchpriority="high"
-                  />
-                </div>
-              ) : (
-                <div class="specimen specimen--pending">
-                  <p class="pencil">specimen pending: add {p.portrait}</p>
-                </div>
-              )}
-              <div class="scalebar" aria-hidden="true"><span></span>10 µm</div>
-            </div>
-            <div class="stain" role="group" aria-label="Portrait stain" hidden>
-              <button type="button" aria-pressed="true" data-stain-set="he">Stained</button>
-              <button type="button" aria-pressed="false" data-stain-set="none">Unstained</button>
-            </div>
-          </div>
-        </div>
+        <span class="seam" aria-hidden="true"></span>
 
-        <div class="thesis">
-          <p class="thesis__line">{p.headline}</p>
-          <div class="thesis__side">
-            <p class="thesis__intro">{p.intro}</p>
-            <p class="thesis__actions">
-              <a class="btn action" href={mail}>
-                Write to {firstName}
-                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5.5 15.5 10 11 14.5" /></svg>
-              </a>
-              {links.map((l) => <a class="textlink" href={l.href} rel="me">{l.label}</a>)}
-            </p>
-          </div>
+        <div class="page page--answer">
+          <h1 id="name" class="name">
+            <span class="name__first">{firstName}</span>
+            {lastName && <span class="name__last">{lastName}</span>}
+          </h1>
+          <p class="standfirst">{p.role}</p>
+          <p class="deck">{p.headline}</p>
+          <p class="intro">{p.intro}</p>
+          <p class="actions">
+            <a class="btn" href={mail}>
+              Write to {firstName}
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5.5 15.5 10 11 14.5" /></svg>
+            </a>
+            {links.map((l) => <a class="textlink" href={l.href} rel="me">{l.label}</a>)}
+          </p>
         </div>
       </section>
 
-      <!-- ── The lid: index cards ─────────────────────────────── -->
-      <section class="lid wrap" aria-labelledby="focus-title">
-        <article class="card card--focus">
-          <h2 id="focus-title" class="card__title">What I work on</h2>
-          <ul class="card__list">
+      <!-- Focus spread -->
+      <section class="spread spread--text wrap" aria-labelledby="focus-title">
+        <div class="page page--pose">
+          <h2 id="focus-title" class="spread__title">What I <em>work</em> on</h2>
+          {p.stack.length > 0 && (
+            <dl class="stack">
+              {p.stack.map((g) => (
+                <div class="stack__row">
+                  <dt>{g.area}</dt>
+                  <dd>{g.tools.map((t, k) => <><span class="nowrap">{t}</span>{k < g.tools.length - 1 && ' · '}</>)}</dd>
+                </div>
+              ))}
+            </dl>
+          )}
+        </div>
+        <span class="seam" aria-hidden="true"></span>
+        <div class="page">
+          <ul class="focus" role="list">
             {p.focus.map((f) => (
               <li>
-                <strong>{f.title}.</strong> {f.text}
+                <h3 class="focus__title">{f.title}</h3>
+                <p>{f.text}</p>
               </li>
             ))}
           </ul>
-          {p.stack.length > 0 && (
-            <p class="card__stack">
-              <span class="code">Stack</span> {p.stack.join(' · ')}
-            </p>
-          )}
-        </article>
+        </div>
+      </section>
 
-        <article class="card card--training" aria-labelledby="training-title">
-          <h2 id="training-title" class="card__title">Training</h2>
-          <ul class="card__rows">
+      <!-- The roles: one spread each, mirrored left and right -->
+      <section class="roles" aria-labelledby="roles-title">
+        <div class="roles__head wrap">
+          <h2 id="roles-title" class="spread__title">Since {since}, <em>{p.experience.length} roles.</em></h2>
+          <p class="roles__intro">Newest first. Each role is set beside the result it's remembered for. Open any role to read the full record.</p>
+        </div>
+
+        {p.experience.map((j, i) => (
+          <article class="feature wrap" data-side={i % 2 === 0 ? 'left' : 'right'} aria-labelledby={`role-${i}`}>
+            <div class="feature__result">
+              <p class="result">{j.specimen}</p>
+              {j.specimen_note && <p class="result__note">{j.specimen_note}</p>}
+            </div>
+            <span class="seam" aria-hidden="true"></span>
+            <div class="feature__byline">
+              <h3 id={`role-${i}`} class="feature__org">{j.org}</h3>
+              <p class="feature__role">{j.role}</p>
+              <p class="feature__years">{years(j)}{j.place && <> · {j.place}</>}</p>
+              {j.org_note && <p class="feature__note">{j.org_note}</p>}
+              {j.points.length > 0 && (
+                <details class="record">
+                  <summary>
+                    <span class="record__open">Read the full record</span>
+                    <span class="record__close">Close the record</span>
+                    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10" /></svg>
+                  </summary>
+                  <ul role="list">
+                    {j.points.map((pt) => <li>{pt}</li>)}
+                  </ul>
+                </details>
+              )}
+            </div>
+          </article>
+        ))}
+      </section>
+
+      <!-- Training spread, set like a contents page -->
+      <section class="spread spread--text wrap" aria-labelledby="training-title">
+        <div class="page page--pose">
+          <h2 id="training-title" class="spread__title"><em>Training</em></h2>
+          <p class="caption-line">
+            <span class="caption-line__label">Languages</span>
+            {p.languages.map((l, k) => <><span class="nowrap">{l.name} ({l.level.toLowerCase()})</span>{k < p.languages.length - 1 && ', '}</>)}
+          </p>
+        </div>
+        <span class="seam" aria-hidden="true"></span>
+        <div class="page">
+          <ul class="contents" role="list">
             {p.education.map((e) => (
               <li>
-                <span class="row__main"><strong>{e.degree}</strong>, {e.school}</span>
-                <span class="row__year">{e.year}</span>
+                <span class="contents__main"><strong>{e.degree}</strong> <span class="contents__sub">{e.school}</span></span>
+                <span class="contents__year">{e.year}</span>
               </li>
             ))}
             {p.certifications.map((c) => (
               <li>
-                <span class="row__main">{c}</span>
-                <span class="row__year">cert.</span>
+                <span class="contents__main">{c}</span>
+                <span class="contents__year">Cert.</span>
               </li>
             ))}
           </ul>
-          <p class="card__stack">
-            <span class="code">Languages</span>
-            {p.languages.map((l) => `${l.name} (${l.level.toLowerCase()})`).join(', ')}
-          </p>
-        </article>
+        </div>
       </section>
 
-      <!-- ── The tray ─────────────────────────────────────────── -->
-      <section class="tray" aria-labelledby="tray-title">
-        <div class="wrap">
-          <div class="tray__head">
-            <h2 id="tray-title">Since {p.experience.at(-1)?.start}, {p.experience.length} slides.</h2>
-            <p>Newest first. Each one is a role and the result it's remembered for. Open any slide to read its full record.</p>
-          </div>
-
-          <ol class="tray__grid" role="list">
-            {p.experience.map((j, i) => (
-              <li class="pos">
-                <span class="pos__n" aria-hidden="true">{pad(i + 2)}</span>
-                <details class="pull">
-                  <summary class="slide slide--tray">
-                    <span class="slide__label frost">
-                      <span class="code">{j.code}</span>
-                      <span class="label-years">{years(j)}</span>
-                      {j.place && <span class="label-place">{j.place}</span>}
-                    </span>
-                    <span class="slide__glass">
-                      <span class="org">
-                        <span class="org__name">{j.org}</span>
-                        <span class="org__role">{j.role}</span>
-                      </span>
-                      <span class="specimen-text">{j.specimen}</span>
-                      {j.specimen_note && <span class="specimen-note">{j.specimen_note}</span>}
-                      <span class="pull__cue action-cue">
-                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10" /></svg>
-                        <span class="pull__open">Read record</span>
-                        <span class="pull__close">Put back</span>
-                      </span>
-                    </span>
-                  </summary>
-                  <div class="record">
-                    {j.org_note && <p class="record__note">{j.org_note}</p>}
-                    <ul>
-                      {j.points.map((pt) => <li>{pt}</li>)}
-                    </ul>
-                  </div>
-                </details>
-              </li>
-            ))}
-
-            <li class="pos pos--open" id="contact">
-              <span class="pos__n" aria-hidden="true">{pad(openSlot)}</span>
-              <div class="empty">
-                <svg class="ghost" viewBox="0 0 98 92" role="img" aria-label={`Slot ${pad(openSlot)}`}>
-                  {[0, 1].map((d) => (
-                  <g transform={`translate(${d * 52} 0)`}>
-                    <polygon class="off" points="8,2 38,2 32,8 14,8" />
-                    <polygon class="on" points="40,4 46,10 46,40 40,44 34,40 34,10" />
-                    <polygon class="on" points="40,48 46,52 46,82 40,88 34,82 34,52" />
-                    <polygon class="off" points="14,84 32,84 38,90 8,90" />
-                    <polygon class="off" points="6,48 12,52 12,82 6,88 0,82 0,52" />
-                    <polygon class="off" points="6,4 12,10 12,40 6,44 0,40 0,10" />
-                    <polygon class="off" points="14,43 32,43 37,46 32,49 14,49 9,46" />
-                  </g>
-                ))}
-                </svg>
-                <h3 class="empty__title">{p.open_slot.title}</h3>
-                <p class="empty__text">{p.open_slot.text}</p>
-                <p class="empty__actions">
-                  <a class="btn action" href={mail}>
-                    {p.email}
-                    <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5.5 15.5 10 11 14.5" /></svg>
-                  </a>
-                </p>
-                <p class="pencil empty__note" aria-hidden="true">your project goes here →</p>
-              </div>
-            </li>
-          </ol>
+      <!-- Closing spread: the open invitation -->
+      <section class="spread spread--close wrap" id="contact" aria-labelledby="close-title">
+        <div class="page page--pose">
+          <h2 id="close-title" class="close__title">{p.open_slot.title}</h2>
+        </div>
+        <span class="seam" aria-hidden="true"></span>
+        <div class="page">
+          <p class="close__text">{p.open_slot.text}</p>
+          <p class="actions">
+            <a class="btn" href={mail}>
+              {p.email}
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5.5 15.5 10 11 14.5" /></svg>
+            </a>
+          </p>
         </div>
       </section>
     </main>
 
-    <footer class="foot wrap">
-      <div class="foot__label frost">
-        <p class="foot__name">{p.name}</p>
-        <p>{p.location}</p>
-        <span class="code">Box AP · {p.experience.length + 1} slides · 1 open</span>
-      </div>
-      <nav class="foot__links" aria-label="Contact">
+    <footer class="colophon wrap">
+      <p class="colophon__name">{p.name}</p>
+      <p class="colophon__place">{p.location}</p>
+      <nav class="colophon__links" aria-label="Contact">
         <a class="textlink" href={mail}>{p.email}</a>
         {links.map((l) => <a class="textlink" href={l.href} rel="me">{l.label}</a>)}
       </nav>
-      <p class="foot__copy">© {new Date().getFullYear()} {p.name}</p>
+      <p class="colophon__copy">© {new Date().getFullYear()} {p.name}</p>
     </footer>
-
-    <script>
-      // One record open at a time; keep the clicked slide where it was on screen.
-      document.querySelectorAll<HTMLElement>('.pull > summary').forEach((summary) => {
-        summary.addEventListener('click', (e) => {
-          const target = summary.parentElement as HTMLDetailsElement;
-          if (target.open) return;
-          const prev = document.querySelector<HTMLDetailsElement>('.pull[open]');
-          if (!prev) return;
-          e.preventDefault();
-          const before = summary.getBoundingClientRect().top;
-          prev.classList.add('instant');
-          prev.open = false;
-          target.open = true;
-          window.scrollBy({ top: summary.getBoundingClientRect().top - before, behavior: 'instant' });
-          requestAnimationFrame(() => requestAnimationFrame(() => prev.classList.remove('instant')));
-        });
-      });
-
-      const group = document.querySelector<HTMLElement>('.stain');
-      const slip = document.querySelector<HTMLElement>('.coverslip');
-      if (group && slip && slip.querySelector('img')) {
-        group.hidden = false;
-        group.addEventListener('click', (e) => {
-          const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('[data-stain-set]');
-          if (!btn) return;
-          slip.dataset.stain = btn.dataset.stainSet!;
-          group.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
-        });
-      }
-    </script>
   </body>
 </html>

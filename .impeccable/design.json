@@ -1,208 +1,58 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-17T04:25:24.381Z",
+  "generatedAt": "2026-11-21T01:37:26Z",
   "title": "Design System: zeroth.me",
   "extensions": {
     "colorMeta": {
-      "marker": {
+      "red": {
         "role": "primary",
-        "displayName": "Marker Yellow",
-        "canonical": "oklch(81.1% 0.166 85.0)",
+        "displayName": "Lipstick Red",
+        "canonical": "oklch(53.0% 0.207 22.3)",
         "tonalRamp": [
-          "oklch(15% 0.083 85.0)",
-          "oklch(26% 0.083 85.0)",
-          "oklch(37% 0.166 85.0)",
-          "oklch(48% 0.166 85.0)",
-          "oklch(59% 0.166 85.0)",
-          "oklch(70% 0.166 85.0)",
-          "oklch(82% 0.166 85.0)",
-          "oklch(95% 0.083 85.0)"
+          "oklch(15% 0.103 22.3)",
+          "oklch(26% 0.103 22.3)",
+          "oklch(37% 0.207 22.3)",
+          "oklch(48% 0.207 22.3)",
+          "oklch(59% 0.207 22.3)",
+          "oklch(70% 0.207 22.3)",
+          "oklch(82% 0.103 22.3)",
+          "oklch(95% 0.103 22.3)"
         ]
       },
-      "marker-hover": {
+      "red-hover": {
         "role": "primary",
-        "displayName": "Marker Hover",
-        "canonical": "oklch(85.4% 0.171 86.9)",
+        "displayName": "Pressed Red",
+        "canonical": "oklch(45.2% 0.176 22.0)",
         "tonalRamp": [
-          "oklch(15% 0.085 86.9)",
-          "oklch(26% 0.085 86.9)",
-          "oklch(37% 0.171 86.9)",
-          "oklch(48% 0.171 86.9)",
-          "oklch(59% 0.171 86.9)",
-          "oklch(70% 0.171 86.9)",
-          "oklch(82% 0.171 86.9)",
-          "oklch(95% 0.085 86.9)"
+          "oklch(15% 0.088 22.0)",
+          "oklch(26% 0.088 22.0)",
+          "oklch(37% 0.176 22.0)",
+          "oklch(48% 0.176 22.0)",
+          "oklch(59% 0.176 22.0)",
+          "oklch(70% 0.176 22.0)",
+          "oklch(82% 0.088 22.0)",
+          "oklch(95% 0.088 22.0)"
         ]
       },
-      "marker-ink": {
+      "on-red": {
         "role": "primary",
-        "displayName": "Marker Ink",
-        "canonical": "oklch(20.3% 0.042 93.7)",
+        "displayName": "On Red",
+        "canonical": "oklch(100.0% 0.000 0.0)",
         "tonalRamp": [
-          "oklch(15% 0.021 93.7)",
-          "oklch(26% 0.021 93.7)",
-          "oklch(37% 0.042 93.7)",
-          "oklch(48% 0.042 93.7)",
-          "oklch(59% 0.042 93.7)",
-          "oklch(70% 0.042 93.7)",
-          "oklch(82% 0.042 93.7)",
-          "oklch(95% 0.021 93.7)"
+          "oklch(15% 0.000 0.0)",
+          "oklch(26% 0.000 0.0)",
+          "oklch(37% 0.000 0.0)",
+          "oklch(48% 0.000 0.0)",
+          "oklch(59% 0.000 0.0)",
+          "oklch(70% 0.000 0.0)",
+          "oklch(82% 0.000 0.0)",
+          "oklch(95% 0.000 0.0)"
         ]
       },
-      "eosin": {
-        "role": "secondary",
-        "displayName": "Eosin",
-        "canonical": "oklch(56.0% 0.174 2.8)",
-        "tonalRamp": [
-          "oklch(15% 0.087 2.8)",
-          "oklch(26% 0.087 2.8)",
-          "oklch(37% 0.174 2.8)",
-          "oklch(48% 0.174 2.8)",
-          "oklch(59% 0.174 2.8)",
-          "oklch(70% 0.174 2.8)",
-          "oklch(82% 0.174 2.8)",
-          "oklch(95% 0.087 2.8)"
-        ]
-      },
-      "eosin-pale": {
-        "role": "secondary",
-        "displayName": "Eosin Pale",
-        "canonical": "oklch(90.6% 0.039 353.3)",
-        "tonalRamp": [
-          "oklch(15% 0.019 353.3)",
-          "oklch(26% 0.019 353.3)",
-          "oklch(37% 0.039 353.3)",
-          "oklch(48% 0.039 353.3)",
-          "oklch(59% 0.039 353.3)",
-          "oklch(70% 0.039 353.3)",
-          "oklch(82% 0.039 353.3)",
-          "oklch(95% 0.019 353.3)"
-        ]
-      },
-      "eosin-bright": {
-        "role": "secondary",
-        "displayName": "Eosin Bright",
-        "canonical": "oklch(72.7% 0.153 359.9)",
-        "tonalRamp": [
-          "oklch(15% 0.076 359.9)",
-          "oklch(26% 0.076 359.9)",
-          "oklch(37% 0.153 359.9)",
-          "oklch(48% 0.153 359.9)",
-          "oklch(59% 0.153 359.9)",
-          "oklch(70% 0.153 359.9)",
-          "oklch(82% 0.153 359.9)",
-          "oklch(95% 0.076 359.9)"
-        ]
-      },
-      "haem": {
-        "role": "tertiary",
-        "displayName": "Haematoxylin",
-        "canonical": "oklch(31.6% 0.107 298.3)",
-        "tonalRamp": [
-          "oklch(15% 0.054 298.3)",
-          "oklch(26% 0.054 298.3)",
-          "oklch(37% 0.107 298.3)",
-          "oklch(48% 0.107 298.3)",
-          "oklch(59% 0.107 298.3)",
-          "oklch(70% 0.107 298.3)",
-          "oklch(82% 0.107 298.3)",
-          "oklch(95% 0.054 298.3)"
-        ]
-      },
-      "haem-deep": {
-        "role": "tertiary",
-        "displayName": "Box Interior",
-        "canonical": "oklch(22.5% 0.052 301.1)",
-        "tonalRamp": [
-          "oklch(15% 0.026 301.1)",
-          "oklch(26% 0.026 301.1)",
-          "oklch(37% 0.052 301.1)",
-          "oklch(48% 0.052 301.1)",
-          "oklch(59% 0.052 301.1)",
-          "oklch(70% 0.052 301.1)",
-          "oklch(82% 0.052 301.1)",
-          "oklch(95% 0.026 301.1)"
-        ]
-      },
-      "haem-mid": {
-        "role": "tertiary",
-        "displayName": "Tray Floor",
-        "canonical": "oklch(27.1% 0.066 300.0)",
-        "tonalRamp": [
-          "oklch(15% 0.033 300.0)",
-          "oklch(26% 0.033 300.0)",
-          "oklch(37% 0.066 300.0)",
-          "oklch(48% 0.066 300.0)",
-          "oklch(59% 0.066 300.0)",
-          "oklch(70% 0.066 300.0)",
-          "oklch(82% 0.066 300.0)",
-          "oklch(95% 0.033 300.0)"
-        ]
-      },
-      "haem-channel": {
-        "role": "tertiary",
-        "displayName": "Channel Shadow",
-        "canonical": "oklch(18.6% 0.041 301.0)",
-        "tonalRamp": [
-          "oklch(15% 0.020 301.0)",
-          "oklch(26% 0.020 301.0)",
-          "oklch(37% 0.041 301.0)",
-          "oklch(48% 0.041 301.0)",
-          "oklch(59% 0.041 301.0)",
-          "oklch(70% 0.041 301.0)",
-          "oklch(82% 0.041 301.0)",
-          "oklch(95% 0.020 301.0)"
-        ]
-      },
-      "on-haem": {
-        "role": "tertiary",
-        "displayName": "On-Haem",
-        "canonical": "oklch(94.3% 0.020 305.3)",
-        "tonalRamp": [
-          "oklch(15% 0.010 305.3)",
-          "oklch(26% 0.010 305.3)",
-          "oklch(37% 0.020 305.3)",
-          "oklch(48% 0.020 305.3)",
-          "oklch(59% 0.020 305.3)",
-          "oklch(70% 0.020 305.3)",
-          "oklch(82% 0.020 305.3)",
-          "oklch(95% 0.010 305.3)"
-        ]
-      },
-      "on-haem-2": {
-        "role": "tertiary",
-        "displayName": "On-Haem Muted",
-        "canonical": "oklch(77.5% 0.054 302.4)",
-        "tonalRamp": [
-          "oklch(15% 0.027 302.4)",
-          "oklch(26% 0.027 302.4)",
-          "oklch(37% 0.054 302.4)",
-          "oklch(48% 0.054 302.4)",
-          "oklch(59% 0.054 302.4)",
-          "oklch(70% 0.054 302.4)",
-          "oklch(82% 0.054 302.4)",
-          "oklch(95% 0.027 302.4)"
-        ]
-      },
-      "lightbox": {
+      "paper": {
         "role": "neutral",
-        "displayName": "Light Box",
-        "canonical": "oklch(95.8% 0.010 93.6)",
-        "tonalRamp": [
-          "oklch(15% 0.005 93.6)",
-          "oklch(26% 0.005 93.6)",
-          "oklch(37% 0.010 93.6)",
-          "oklch(48% 0.010 93.6)",
-          "oklch(59% 0.010 93.6)",
-          "oklch(70% 0.010 93.6)",
-          "oklch(82% 0.010 93.6)",
-          "oklch(95% 0.005 93.6)"
-        ]
-      },
-      "frost": {
-        "role": "neutral",
-        "displayName": "Frost",
-        "canonical": "oklch(98.8% 0.004 91.4)",
+        "displayName": "Paper White",
+        "canonical": "oklch(98.5% 0.004 91.4)",
         "tonalRamp": [
           "oklch(15% 0.002 91.4)",
           "oklch(26% 0.002 91.4)",
@@ -210,235 +60,169 @@
           "oklch(48% 0.004 91.4)",
           "oklch(59% 0.004 91.4)",
           "oklch(70% 0.004 91.4)",
-          "oklch(82% 0.004 91.4)",
+          "oklch(82% 0.002 91.4)",
           "oklch(95% 0.002 91.4)"
         ]
       },
-      "card-stock": {
+      "paper-2": {
         "role": "neutral",
-        "displayName": "Card Stock",
-        "canonical": "oklch(99.3% 0.003 106.4)",
+        "displayName": "Plate Grey",
+        "canonical": "oklch(95.2% 0.008 91.5)",
         "tonalRamp": [
-          "oklch(15% 0.001 106.4)",
-          "oklch(26% 0.001 106.4)",
-          "oklch(37% 0.003 106.4)",
-          "oklch(48% 0.003 106.4)",
-          "oklch(59% 0.003 106.4)",
-          "oklch(70% 0.003 106.4)",
-          "oklch(82% 0.003 106.4)",
-          "oklch(95% 0.001 106.4)"
+          "oklch(15% 0.004 91.5)",
+          "oklch(26% 0.004 91.5)",
+          "oklch(37% 0.008 91.5)",
+          "oklch(48% 0.008 91.5)",
+          "oklch(59% 0.008 91.5)",
+          "oklch(70% 0.008 91.5)",
+          "oklch(82% 0.004 91.5)",
+          "oklch(95% 0.004 91.5)"
         ]
       },
       "ink": {
         "role": "neutral",
-        "displayName": "Graphite Ink",
-        "canonical": "oklch(27.5% 0.020 223.6)",
+        "displayName": "Ink",
+        "canonical": "oklch(19.1% 0.000 0.0)",
         "tonalRamp": [
-          "oklch(15% 0.010 223.6)",
-          "oklch(26% 0.010 223.6)",
-          "oklch(37% 0.020 223.6)",
-          "oklch(48% 0.020 223.6)",
-          "oklch(59% 0.020 223.6)",
-          "oklch(70% 0.020 223.6)",
-          "oklch(82% 0.020 223.6)",
-          "oklch(95% 0.010 223.6)"
+          "oklch(15% 0.000 0.0)",
+          "oklch(26% 0.000 0.0)",
+          "oklch(37% 0.000 0.0)",
+          "oklch(48% 0.000 0.0)",
+          "oklch(59% 0.000 0.0)",
+          "oklch(70% 0.000 0.0)",
+          "oklch(82% 0.000 0.0)",
+          "oklch(95% 0.000 0.0)"
         ]
       },
       "ink-2": {
         "role": "neutral",
-        "displayName": "Graphite Muted",
-        "canonical": "oklch(45.1% 0.020 225.6)",
+        "displayName": "Second Ink",
+        "canonical": "oklch(41.8% 0.009 80.7)",
         "tonalRamp": [
-          "oklch(15% 0.010 225.6)",
-          "oklch(26% 0.010 225.6)",
-          "oklch(37% 0.020 225.6)",
-          "oklch(48% 0.020 225.6)",
-          "oklch(59% 0.020 225.6)",
-          "oklch(70% 0.020 225.6)",
-          "oklch(82% 0.020 225.6)",
-          "oklch(95% 0.010 225.6)"
+          "oklch(15% 0.004 80.7)",
+          "oklch(26% 0.004 80.7)",
+          "oklch(37% 0.009 80.7)",
+          "oklch(48% 0.009 80.7)",
+          "oklch(59% 0.009 80.7)",
+          "oklch(70% 0.009 80.7)",
+          "oklch(82% 0.004 80.7)",
+          "oklch(95% 0.004 80.7)"
         ]
       },
-      "pencil-graphite": {
+      "ink-3": {
         "role": "neutral",
-        "displayName": "Pencil Graphite",
-        "canonical": "oklch(51.5% 0.018 227.3)",
+        "displayName": "Third Ink",
+        "canonical": "oklch(52.6% 0.012 81.8)",
         "tonalRamp": [
-          "oklch(15% 0.009 227.3)",
-          "oklch(26% 0.009 227.3)",
-          "oklch(37% 0.018 227.3)",
-          "oklch(48% 0.018 227.3)",
-          "oklch(59% 0.018 227.3)",
-          "oklch(70% 0.018 227.3)",
-          "oklch(82% 0.018 227.3)",
-          "oklch(95% 0.009 227.3)"
+          "oklch(15% 0.006 81.8)",
+          "oklch(26% 0.006 81.8)",
+          "oklch(37% 0.012 81.8)",
+          "oklch(48% 0.012 81.8)",
+          "oklch(59% 0.012 81.8)",
+          "oklch(70% 0.012 81.8)",
+          "oklch(82% 0.006 81.8)",
+          "oklch(95% 0.006 81.8)"
         ]
       },
-      "rule": {
+      "hairline": {
         "role": "neutral",
-        "displayName": "Rule",
-        "canonical": "oklch(86.7% 0.018 89.4)",
+        "displayName": "Hairline",
+        "canonical": "oklch(84.0% 0.015 84.6)",
         "tonalRamp": [
-          "oklch(15% 0.009 89.4)",
-          "oklch(26% 0.009 89.4)",
-          "oklch(37% 0.018 89.4)",
-          "oklch(48% 0.018 89.4)",
-          "oklch(59% 0.018 89.4)",
-          "oklch(70% 0.018 89.4)",
-          "oklch(82% 0.018 89.4)",
-          "oklch(95% 0.009 89.4)"
-        ]
-      },
-      "glass-edge": {
-        "role": "neutral",
-        "displayName": "Glass Edge",
-        "canonical": "oklch(72.3% 0.040 164.4)",
-        "tonalRamp": [
-          "oklch(15% 0.020 164.4)",
-          "oklch(26% 0.020 164.4)",
-          "oklch(37% 0.040 164.4)",
-          "oklch(48% 0.040 164.4)",
-          "oklch(59% 0.040 164.4)",
-          "oklch(70% 0.040 164.4)",
-          "oklch(82% 0.040 164.4)",
-          "oklch(95% 0.020 164.4)"
+          "oklch(15% 0.007 84.6)",
+          "oklch(26% 0.007 84.6)",
+          "oklch(37% 0.015 84.6)",
+          "oklch(48% 0.015 84.6)",
+          "oklch(59% 0.015 84.6)",
+          "oklch(70% 0.015 84.6)",
+          "oklch(82% 0.007 84.6)",
+          "oklch(95% 0.007 84.6)"
         ]
       }
     },
     "typographyMeta": {
       "display": {
         "displayName": "Display",
-        "purpose": "The name on slide 01's frosted label."
+        "purpose": "The name on the opening spread (and the closing title); upright, surname stepped in."
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "The tray heading; footer name at 1.35rem."
+        "purpose": "Spread titles; the operative word is a Literata italic aside."
       },
-      "thesis": {
-        "displayName": "Thesis",
-        "purpose": "The single large serif statement under the hero slide."
+      "headline-aside": {
+        "displayName": "Headline Aside",
+        "purpose": "The Literata 400 italic word inside a spread title."
       },
-      "specimen": {
-        "displayName": "Specimen",
-        "purpose": "The result each tray slide is remembered for, in eosin bright."
+      "result": {
+        "displayName": "Result",
+        "purpose": "The one real result on each role spread, upright, lining figures."
+      },
+      "deck": {
+        "displayName": "Deck",
+        "purpose": "The Literata italic headline under the name."
       },
       "title": {
         "displayName": "Title",
-        "purpose": "The empty slot's heading."
+        "purpose": "Organisation names in role bylines."
       },
       "body": {
         "displayName": "Body",
-        "purpose": "Reading text; 46-78ch measures."
+        "purpose": "All reading text in Literata, 46 to 62ch measures."
       },
       "action": {
         "displayName": "Action",
-        "purpose": "Button labels; text links at weight 560."
+        "purpose": "Buttons and the record toggle."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Text links, caption lines, contents years, colophon."
       },
       "label": {
         "displayName": "Label",
-        "purpose": "Accession codes, toggle, scale bar, position numbers, box mark. Uppercase, wdth 72."
-      },
-      "pencil": {
-        "displayName": "Pencil",
-        "purpose": "Short handwritten annotations and index-card titles."
+        "purpose": "Uppercase tracked folio, role dates and plate caption."
       }
     },
-    "shadows": [
-      {
-        "name": "glass-slide",
-        "value": "inset 0 1px 0 rgba(255,255,255,0.95), inset 0 -1px 0 rgba(120,160,140,0.35), 0 1px 2px rgba(29,42,47,0.12), 0 18px 36px -24px rgba(29,42,47,0.45)",
-        "purpose": "slides on the light box."
-      },
-      {
-        "name": "paper-card",
-        "value": "0 1px 1px rgba(29,42,47,0.1), 0 14px 30px -18px rgba(29,42,47,0.4)",
-        "purpose": "index cards."
-      },
-      {
-        "name": "box-label",
-        "value": "0 10px 22px -18px rgba(29,42,47,0.5)",
-        "purpose": "the footer label."
-      },
-      {
-        "name": "marker-lift",
-        "value": "0 1px 0 rgba(29,22,0,0.25), 0 6px 14px -8px rgba(29,22,0,0.45)",
-        "purpose": "primary buttons; deepens on hover."
-      },
-      {
-        "name": "recessed-floor",
-        "value": "inset 0 2px 10px rgba(0,0,0,0.45), inset 0 0 0 1px rgba(255,255,255,0.04)",
-        "purpose": "the tray floor."
-      },
-      {
-        "name": "channel",
-        "value": "inset 0 3px 8px rgba(0,0,0,0.75), inset 0 -1px 0 rgba(255,255,255,0.07)",
-        "purpose": "each closed slide's slot."
-      },
-      {
-        "name": "tray-glass",
-        "value": "inset 0 1px 0 rgba(255,255,255,0.22), 0 1px 0 rgba(0,0,0,0.3), 0 12px 24px -16px rgba(0,0,0,0.7)",
-        "purpose": "slides inside the box."
-      },
-      {
-        "name": "record-sheet",
-        "value": "0 16px 30px -18px rgba(0,0,0,0.7)",
-        "purpose": "the pulled record."
-      }
-    ],
+    "shadows": [],
     "motion": [
       {
-        "name": "ease-out",
+        "name": "ease",
         "value": "cubic-bezier(0.16, 1, 0.3, 1)",
-        "purpose": "The single easing for transitions and entrances."
+        "purpose": "The single house ease for every transition and keyframe."
       },
       {
-        "name": "press",
+        "name": "state",
         "value": "220ms",
-        "purpose": "Button lift and arrow nudge."
+        "purpose": "Button fill, arrow nudge, link colour and underline."
       },
       {
-        "name": "link",
-        "value": "180ms",
-        "purpose": "Underline swelling into a highlighter stroke."
+        "name": "record",
+        "value": "320ms",
+        "purpose": "Record toggle underline draw and icon rotation."
       },
       {
-        "name": "cue",
-        "value": "200ms",
-        "purpose": "Action cue fade and rise."
-      },
-      {
-        "name": "pull",
-        "value": "380ms",
-        "purpose": "Tray slide lift and slide-out."
-      },
-      {
-        "name": "record-in",
+        "name": "unfold",
         "value": "520ms",
-        "purpose": "Record sheet unroll via clip-path."
+        "purpose": "Record list fades and drops 6px into place on open."
       },
       {
-        "name": "focus-in",
-        "value": "1600ms, 150ms delay",
-        "purpose": "Load moment: the specimen sharpens from a 10px blur and 1.035 scale."
+        "name": "wipe",
+        "value": "1300ms",
+        "purpose": "Portrait wipes open from the seam, scaling 1.06 to 1, on load."
       },
       {
-        "name": "reduced-motion",
-        "value": "1ms",
-        "purpose": "All animation and transition durations collapse under prefers-reduced-motion."
+        "name": "settle",
+        "value": "1100ms (+140ms surname)",
+        "purpose": "Name slides in 0.25em from the left on load."
       }
     ],
     "breakpoints": [
       {
-        "name": "tray-single",
+        "name": "narrow-spread",
         "value": "1000px"
       },
       {
         "name": "stack",
-        "value": "860px"
-      },
-      {
-        "name": "upright-slide",
-        "value": "640px"
+        "value": "820px"
       }
     ]
   },
@@ -447,124 +231,117 @@
       "name": "Primary Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Marker-yellow action with a trailing stroked arrow; the only filled colour that means press me.",
-      "html": "<a class=\"ds-btn\" href=\"#\">Write to Abhishek <svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M4 10h11M11 5.5 15.5 10 11 14.5\" /></svg></a>",
-      "css": ".ds-btn { display: inline-flex; align-items: center; gap: 0.6em; padding: 0.78em 1.15em 0.8em; background: var(--marker, #f2b705); color: var(--marker-ink, #1d1600); font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-weight: 650; font-size: 1rem; letter-spacing: 0.005em; text-decoration: none; border-radius: 2px; box-shadow: 0 1px 0 rgba(29,22,0,0.25), 0 6px 14px -8px rgba(29,22,0,0.45); transition: transform 220ms cubic-bezier(0.16,1,0.3,1), box-shadow 220ms cubic-bezier(0.16,1,0.3,1), background-color 220ms; } .ds-btn svg { width: 1.1em; height: 1.1em; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; transition: transform 220ms cubic-bezier(0.16,1,0.3,1); } .ds-btn:hover { background: #ffc61a; transform: translateY(-1px); box-shadow: 0 2px 0 rgba(29,22,0,0.25), 0 10px 20px -10px rgba(29,22,0,0.5); } .ds-btn:hover svg { transform: translateX(3px); } .ds-btn:active { transform: translateY(0); } .ds-btn:focus-visible { outline: 2px solid var(--ink, #1d2a2f); outline-offset: 3px; box-shadow: 0 0 0 6px var(--marker, #f2b705); border-radius: 2px; }"
+      "description": "The single red email action on the opening and closing spreads.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Write to Abhishek <svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M4 10h11M11 5.5 15.5 10 11 14.5\"/></svg></a>",
+      "css": ":host{--paper:#fbfaf7;--paper-2:#f1efe9;--ink:#141414;--ink-2:#4f4c47;--hairline:#cfcac0;--red:#c8102e;--red-hover:#a10b24;--on-red:#fff;--f-display:'Bricolage Grotesque Variable','Avenir Next',system-ui,sans-serif;--f-sans:var(--f-display);--f-text:'Literata Variable',Georgia,serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-btn{display:inline-flex;align-items:center;gap:0.75em;padding:0.85em 1.25em 0.9em;background:var(--red);color:var(--on-red);font-family:var(--f-sans);font-weight:500;font-size:1rem;letter-spacing:0.02em;text-decoration:none;border-radius:0;transition:background-color 220ms var(--ease);} .ds-btn svg{width:1.15em;height:1.15em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;transition:transform 220ms var(--ease);} .ds-btn:hover{background:var(--red-hover);} .ds-btn:hover svg{transform:translateX(4px);} .ds-btn:focus-visible{outline:2px solid var(--red);outline-offset:3px;}"
     },
     {
       "name": "Text Link",
-      "kind": "nav",
+      "kind": "custom",
       "refersTo": "text-link",
-      "description": "Graphite Archivo link with a marker underline that swells into a highlighter stroke on hover.",
+      "description": "Sans link underlined in red; turns red on hover.",
       "html": "<a class=\"ds-textlink\" href=\"#\">LinkedIn</a>",
-      "css": ".ds-textlink { color: var(--ink, #1d2a2f); font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-weight: 560; font-size: 0.98rem; text-decoration-line: underline; text-decoration-color: var(--marker, #f2b705); text-decoration-thickness: 3px; text-underline-offset: 5px; transition: text-decoration-thickness 180ms, text-underline-offset 180ms; } .ds-textlink:hover { text-decoration-thickness: 0.5em; text-underline-offset: -0.25em; text-decoration-skip-ink: none; } .ds-textlink:focus-visible { outline: 2px solid var(--ink, #1d2a2f); outline-offset: 3px; box-shadow: 0 0 0 6px var(--marker, #f2b705); border-radius: 2px; }"
+      "css": ":host{--paper:#fbfaf7;--paper-2:#f1efe9;--ink:#141414;--ink-2:#4f4c47;--hairline:#cfcac0;--red:#c8102e;--red-hover:#a10b24;--on-red:#fff;--f-display:'Bricolage Grotesque Variable','Avenir Next',system-ui,sans-serif;--f-sans:var(--f-display);--f-text:'Literata Variable',Georgia,serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-textlink{font-family:var(--f-sans);font-weight:450;font-size:0.95rem;letter-spacing:0.01em;color:var(--ink);text-decoration:underline;text-decoration-color:var(--red);text-decoration-thickness:1px;text-underline-offset:5px;transition:text-decoration-thickness 220ms var(--ease),color 220ms var(--ease);} .ds-textlink:hover{color:var(--red);text-decoration-thickness:2px;} .ds-textlink:focus-visible{outline:2px solid var(--red);outline-offset:3px;}"
     },
     {
-      "name": "Stain Toggle",
-      "kind": "chip",
-      "refersTo": "stain-toggle",
-      "description": "Segmented Stained / Unstained switch; the pressed segment is marker yellow.",
-      "html": "<div class=\"ds-stain\" role=\"group\" aria-label=\"Portrait stain\"><button type=\"button\" aria-pressed=\"true\">Stained</button><button type=\"button\" aria-pressed=\"false\">Unstained</button></div>",
-      "css": ".ds-stain { display: inline-flex; box-shadow: 0 6px 14px -8px rgba(0,0,0,0.5); } .ds-stain button { cursor: pointer; font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-stretch: 72%; font-weight: 650; font-size: 0.74rem; letter-spacing: 0.07em; text-transform: uppercase; padding: 6px 10px; border: 1px solid var(--ink, #1d2a2f); background: var(--frost, #fcfbf8); color: var(--ink, #1d2a2f); } .ds-stain button + button { border-left: 0; } .ds-stain button[aria-pressed='true'] { background: var(--marker, #f2b705); color: var(--marker-ink, #1d1600); } .ds-stain button:hover:not([aria-pressed='true']) { background: #fff; } .ds-stain button:focus-visible { outline: 2px solid var(--ink, #1d2a2f); outline-offset: 3px; box-shadow: 0 0 0 6px var(--marker, #f2b705); border-radius: 2px; }"
-    },
-    {
-      "name": "Glass Slide",
+      "name": "Record Toggle",
       "kind": "custom",
-      "refersTo": "slide-label",
-      "description": "The repeating unit: frosted label end with accession code, years and pencil note; clear glass field with the specimen result.",
-      "html": "<div class=\"ds-slide\"><div class=\"ds-slide__label\"><span class=\"ds-code\">AP-2022-MON</span><span class=\"ds-years\">2022–now</span><span class=\"ds-pencil\">Melbourne</span></div><div class=\"ds-slide__glass\"><span class=\"ds-org\">Monash University</span><span class=\"ds-result\">3 days → 5 hours</span></div></div>",
-      "css": ".ds-slide { display: grid; grid-template-columns: 27% 1fr; aspect-ratio: 3 / 1; min-width: 420px; border-radius: 3px; background: rgba(255,255,255,0.42); border: 1px solid var(--glass-edge, #8fae9f); box-shadow: inset 0 1px 0 rgba(255,255,255,0.95), inset 0 -1px 0 rgba(120,160,140,0.35), 0 1px 2px rgba(29,42,47,0.12), 0 18px 36px -24px rgba(29,42,47,0.45); overflow: hidden; color: var(--ink, #1d2a2f); } .ds-slide__label { display: flex; flex-direction: column; gap: 4px; padding: 14px; background: var(--frost, #fcfbf8); border-right: 1px solid rgba(143,174,159,0.6); } .ds-code { font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-stretch: 72%; font-weight: 600; font-size: 0.74rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--eosin, #c13b6b); } .ds-years { margin-top: auto; font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-weight: 700; font-variant-numeric: tabular-nums; } .ds-pencil { font-family: var(--f-pencil, 'Reenie Beanie', cursive); font-size: 1.35rem; line-height: 0.9; color: #5d6a70; } .ds-slide__glass { display: flex; flex-direction: column; padding: 14px 18px; } .ds-org { font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-weight: 700; } .ds-result { margin-top: auto; font-family: var(--f-text, 'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif); font-weight: 450; font-size: 1.6rem; line-height: 1.02; letter-spacing: -0.02em; color: var(--eosin, #c13b6b); }"
+      "refersTo": "record-toggle",
+      "description": "Native details/summary that opens a role's full record under a hairline.",
+      "html": "<details class=\"ds-record\"><summary><span>Read the full record</span><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M8 3v10M3 8h10\"/></svg></summary><ul><li>Cut microscopy processing from about 3 days to about 5 hours.</li><li>Adopted by a university imaging facility.</li></ul></details>",
+      "css": ":host{--paper:#fbfaf7;--paper-2:#f1efe9;--ink:#141414;--ink-2:#4f4c47;--hairline:#cfcac0;--red:#c8102e;--red-hover:#a10b24;--on-red:#fff;--f-display:'Bricolage Grotesque Variable','Avenir Next',system-ui,sans-serif;--f-sans:var(--f-display);--f-text:'Literata Variable',Georgia,serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-record{font-family:var(--f-text);color:var(--ink);} .ds-record summary{display:inline-flex;align-items:center;gap:0.6em;cursor:pointer;list-style:none;font-family:var(--f-sans);font-weight:500;font-size:0.95rem;letter-spacing:0.02em;color:var(--red);padding-block:6px;background-image:linear-gradient(var(--red),var(--red));background-repeat:no-repeat;background-position:0 100%;background-size:0 1px;transition:background-size 320ms var(--ease);} .ds-record summary::-webkit-details-marker{display:none;} .ds-record summary:hover{background-size:100% 1px;} .ds-record summary:focus-visible{outline:2px solid var(--red);outline-offset:3px;} .ds-record svg{width:0.95em;height:0.95em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;transition:transform 320ms var(--ease);} .ds-record[open] svg{transform:rotate(45deg);} .ds-record ul{list-style:none;display:grid;gap:12px;margin:16px 0 0;padding:18px 0 0;border-top:1px solid var(--hairline);max-width:62ch;} .ds-record li{position:relative;padding-left:1.4em;line-height:1.55;} .ds-record li::before{content:'';position:absolute;left:0;top:0.78em;width:0.7em;height:1px;background:var(--ink);}"
     },
     {
-      "name": "Tray Slot",
-      "kind": "custom",
-      "refersTo": "tray-channel",
-      "description": "A slide seated in a recessed channel inside the box; lifts on hover and reveals a marker action cue.",
-      "html": "<div class=\"ds-tray\"><div class=\"ds-channel\"><a class=\"ds-tslide\" href=\"#\"><span class=\"ds-tlabel\"><span class=\"ds-tcode\">AP-2019-AU0</span><b>2019–2022</b></span><span class=\"ds-tglass\"><b>Auth0 by Okta</b><span class=\"ds-tresult\">OIDC · OAuth 2.0 · SAML</span><span class=\"ds-cue\">Read record</span></span></a></div></div>",
-      "css": ".ds-tray { padding: 18px; background: var(--haem-mid, #2c1e42); border-radius: 6px; box-shadow: inset 0 2px 10px rgba(0,0,0,0.45), inset 0 0 0 1px rgba(255,255,255,0.04); } .ds-channel { padding: 5px; border-radius: 4px; background: #160e22; box-shadow: inset 0 3px 8px rgba(0,0,0,0.75), inset 0 -1px 0 rgba(255,255,255,0.07); } .ds-tslide { position: relative; display: grid; grid-template-columns: 27% 1fr; min-height: 140px; border-radius: 3px; text-decoration: none; color: var(--on-haem, #efe9f7); background: rgba(236,244,240,0.07); border: 1px solid rgba(170,205,188,0.5); box-shadow: inset 0 1px 0 rgba(255,255,255,0.22), 0 1px 0 rgba(0,0,0,0.3), 0 12px 24px -16px rgba(0,0,0,0.7); overflow: hidden; transition: transform 380ms cubic-bezier(0.16,1,0.3,1), box-shadow 380ms cubic-bezier(0.16,1,0.3,1); font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); } .ds-tslide:hover { transform: translateY(-3px); background: rgba(236,244,240,0.11); box-shadow: inset 0 1px 0 rgba(255,255,255,0.28), 0 2px 0 rgba(0,0,0,0.3), 0 22px 34px -18px rgba(0,0,0,0.85); } .ds-tslide:focus-visible { outline: 2px solid var(--ink, #1d2a2f); outline-offset: 3px; box-shadow: 0 0 0 6px var(--marker, #f2b705); border-radius: 2px; } .ds-tlabel { display: flex; flex-direction: column; justify-content: space-between; padding: 12px; background: var(--frost, #fcfbf8); color: var(--ink, #1d2a2f); } .ds-tcode { font-stretch: 72%; font-weight: 600; font-size: 0.74rem; letter-spacing: 0.06em; color: var(--eosin, #c13b6b); } .ds-tglass { display: flex; flex-direction: column; padding: 12px 16px; } .ds-tresult { margin-top: auto; font-family: var(--f-text, 'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif); font-size: 1.5rem; line-height: 1.02; color: var(--eosin-bright, #f27aa3); } .ds-cue { position: absolute; right: 12px; bottom: 12px; font-stretch: 72%; font-weight: 700; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 7px 2px; background: var(--marker, #f2b705); color: var(--marker-ink, #1d1600); border-radius: 1px; opacity: 0; transform: translateY(4px); transition: opacity 200ms cubic-bezier(0.16,1,0.3,1), transform 200ms cubic-bezier(0.16,1,0.3,1); } .ds-tslide:hover .ds-cue, .ds-tslide:focus-visible .ds-cue { opacity: 1; transform: none; }"
-    },
-    {
-      "name": "Index Card",
+      "name": "Role Feature Spread",
       "kind": "card",
-      "refersTo": "index-card",
-      "description": "Ruled card stock on the lid: pencil title, eosin header line, 1.75rem baseline, a slight rotation.",
-      "html": "<article class=\"ds-card\"><h3 class=\"ds-card__title\">What I work on</h3><ul><li><strong>Imaging pipelines.</strong> Microscopy processing from days to hours.</li><li><strong>Production systems.</strong> Architecture owned end to end.</li></ul></article>",
-      "css": ".ds-card { --line: 1.75rem; max-width: 520px; rotate: -0.6deg; padding: calc(var(--line) * 0.75) 28px var(--line); color: var(--ink, #1d2a2f); font-family: var(--f-text, 'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif); background-color: #fdfdfb; background-image: linear-gradient(#c13b6b, #c13b6b), repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--line) - 1px), rgba(58,33,96,0.16) calc(var(--line) - 1px), rgba(58,33,96,0.16) var(--line)); background-size: 100% 2px, 100% 100%; background-position: 0 calc(var(--line) * 2.5 - 1px), 0 calc(var(--line) * 2.5); background-repeat: no-repeat, repeat-y; box-shadow: 0 1px 1px rgba(29,42,47,0.1), 0 14px 30px -18px rgba(29,42,47,0.4); line-height: var(--line); } .ds-card__title { margin: 0; height: calc(var(--line) * 1.75); display: flex; align-items: flex-end; padding-bottom: 4px; font-family: var(--f-pencil, 'Reenie Beanie', cursive); font-weight: 400; font-size: 2.3rem; line-height: 1; color: var(--haem, #3a2160); } .ds-card ul { margin: calc(var(--line) * 0.25) 0 0; padding: 0; list-style: none; font-size: 1rem; } .ds-card strong { font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-weight: 650; font-size: 0.98rem; }"
+      "refersTo": "result",
+      "description": "One role: an upright display-size result facing the byline across the hairline seam; every role the same size, sides alternating.",
+      "html": "<article class=\"ds-feature\"><div><p class=\"ds-result\">3 days → 5 hours</p><p class=\"ds-note\">to process a time-series stack of single-molecule images</p></div><span class=\"ds-seam\"></span><div><h3 class=\"ds-org\">Monash University</h3><p class=\"ds-role\">Research Fellow</p><p class=\"ds-years\">2022–NOW · MELBOURNE</p></div></article>",
+      "css": ":host{--paper:#fbfaf7;--paper-2:#f1efe9;--ink:#141414;--ink-2:#4f4c47;--hairline:#cfcac0;--red:#c8102e;--red-hover:#a10b24;--on-red:#fff;--f-display:'Bricolage Grotesque Variable','Avenir Next',system-ui,sans-serif;--f-sans:var(--f-display);--f-text:'Literata Variable',Georgia,serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-feature{display:grid;grid-template-columns:minmax(0,1fr) 1px minmax(0,1fr);column-gap:clamp(28px,4.5vw,72px);padding-block:clamp(40px,6vw,88px);border-top:1px solid var(--hairline);background:var(--paper);color:var(--ink);font-family:var(--f-text);font-optical-sizing:auto;} .ds-seam{background:var(--hairline);width:1px;align-self:stretch;} .ds-result{margin:0;font-family:var(--f-display);font-weight:560;font-size:clamp(2.1rem,4.4vw,4rem);line-height:0.98;letter-spacing:-0.035em;font-variant-numeric:lining-nums;text-wrap:balance;} .ds-note{margin:16px 0 0;max-width:34ch;color:var(--ink-2);font-size:1rem;line-height:1.45;} .ds-org{margin:0;font-family:var(--f-display);font-weight:680;font-size:clamp(1.55rem,2.3vw,2.15rem);line-height:1.08;letter-spacing:-0.015em;} .ds-role{margin:4px 0 0;font-style:italic;font-size:1.1rem;} .ds-years{margin:10px 0 0;font-family:var(--f-sans);font-size:0.8rem;letter-spacing:0.14em;text-transform:uppercase;font-variant-numeric:tabular-nums;color:var(--ink-2);}"
     },
     {
-      "name": "Record Sheet",
-      "kind": "card",
-      "refersTo": "record",
-      "description": "The frost sheet unrolled from a pulled slide: eosin organisation note and haematoxylin-dotted list.",
-      "html": "<div class=\"ds-record\"><p class=\"ds-record__note\">Firmware for 3,000+ monitoring units</p><ul><li>70% fewer site visits.</li><li>40% lower unit cost.</li></ul></div>",
-      "css": ".ds-record { max-width: 78ch; padding: 22px 28px 24px; background: var(--frost, #fcfbf8); color: var(--ink, #1d2a2f); border-radius: 2px; box-shadow: 0 16px 30px -18px rgba(0,0,0,0.7); font-family: var(--f-text, 'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif); } .ds-record__note { margin: 0 0 12px; font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); font-weight: 560; font-size: 0.9rem; color: var(--eosin, #c13b6b); } .ds-record ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; } .ds-record li { position: relative; padding-left: 1.2em; font-size: 0.98rem; line-height: 1.55; } .ds-record li::before { content: ''; position: absolute; left: 0; top: 0.62em; width: 0.45em; height: 0.45em; border-radius: 50%; background: var(--haem, #3a2160); }"
-    },
-    {
-      "name": "Header Bar",
+      "name": "Masthead",
       "kind": "nav",
-      "refersTo": "text-link",
-      "description": "Box mark in condensed caps on the left, the email as a marker-underlined link on the right.",
-      "html": "<header class=\"ds-bar\"><span class=\"ds-bar__box\">Box AP · zeroth.me</span><a class=\"ds-bar__mail\" href=\"#\">hello@zeroth.me</a></header>",
-      "css": ".ds-bar { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 22px 0 18px; color: var(--ink, #1d2a2f); font-family: var(--f-label, 'Archivo Variable', 'Archivo', system-ui, sans-serif); } .ds-bar__box { font-stretch: 72%; font-weight: 650; font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; } .ds-bar__mail { color: inherit; font-weight: 560; font-size: 0.95rem; text-decoration: underline; text-decoration-color: var(--marker, #f2b705); text-decoration-thickness: 3px; text-underline-offset: 5px; transition: text-decoration-thickness 180ms, text-underline-offset 180ms; } .ds-bar__mail:hover { text-decoration-thickness: 0.5em; text-underline-offset: -0.25em; text-decoration-skip-ink: none; } .ds-bar__mail:focus-visible { outline: 2px solid var(--ink, #1d2a2f); outline-offset: 3px; box-shadow: 0 0 0 6px var(--marker, #f2b705); border-radius: 2px; }"
+      "refersTo": "masthead",
+      "description": "Upright heavy wordmark, centred folio, email link; closed by an ink rule.",
+      "html": "<header class=\"ds-masthead\"><span class=\"ds-wordmark\">zeroth</span><span class=\"ds-folio\">Melbourne · 2026</span><a class=\"ds-mail\" href=\"#\">abhishek@zeroth.me</a></header>",
+      "css": ":host{--paper:#fbfaf7;--paper-2:#f1efe9;--ink:#141414;--ink-2:#4f4c47;--hairline:#cfcac0;--red:#c8102e;--red-hover:#a10b24;--on-red:#fff;--f-display:'Bricolage Grotesque Variable','Avenir Next',system-ui,sans-serif;--f-sans:var(--f-display);--f-text:'Literata Variable',Georgia,serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-masthead{display:grid;grid-template-columns:1fr auto 1fr;align-items:baseline;gap:16px;padding-block:18px 16px;border-bottom:1px solid var(--ink);background:var(--paper);color:var(--ink);} .ds-wordmark{font-family:var(--f-display);font-weight:750;font-size:1.5rem;line-height:1;letter-spacing:-0.035em;} .ds-folio{font-family:var(--f-sans);font-size:0.74rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--ink-2);} .ds-mail{justify-self:end;font-family:var(--f-sans);font-weight:450;font-size:0.95rem;color:var(--ink);text-decoration:underline;text-decoration-color:var(--red);text-underline-offset:5px;} .ds-mail:hover{color:var(--red);text-decoration-thickness:2px;} .ds-mail:focus-visible{outline:2px solid var(--red);outline-offset:3px;}"
+    },
+    {
+      "name": "Photo Plate",
+      "kind": "custom",
+      "refersTo": "plate-caption",
+      "description": "Portrait reprinted as grey photogravure with grain and a paper caption tab.",
+      "html": "<figure class=\"ds-plate\"><div class=\"ds-plate-img\"></div><figcaption>Abhishek Patil, Melbourne.</figcaption></figure>",
+      "css": ":host{--paper:#fbfaf7;--paper-2:#f1efe9;--ink:#141414;--ink-2:#4f4c47;--hairline:#cfcac0;--red:#c8102e;--red-hover:#a10b24;--on-red:#fff;--f-display:'Bricolage Grotesque Variable','Avenir Next',system-ui,sans-serif;--f-sans:var(--f-display);--f-text:'Literata Variable',Georgia,serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-plate{position:relative;margin:0;width:280px;aspect-ratio:1;overflow:hidden;background:var(--paper-2);} .ds-plate-img{position:absolute;inset:0;background:linear-gradient(160deg,#9a9a9a,#2a2a2a);filter:grayscale(1) contrast(1.14) brightness(1.03);} .ds-plate::after{content:'';position:absolute;inset:0;opacity:0.22;mix-blend-mode:multiply;background-image:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.9 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23g)'/%3E%3C/svg%3E\");} .ds-plate figcaption{position:absolute;left:16px;bottom:14px;z-index:1;padding:4px 8px;background:var(--paper);color:var(--ink);font-family:var(--f-sans);font-size:0.7rem;letter-spacing:0.18em;text-transform:uppercase;}"
+    },
+    {
+      "name": "Contents List",
+      "kind": "custom",
+      "refersTo": "contents",
+      "description": "Training set as a table of contents with tabular years.",
+      "html": "<ul class=\"ds-contents\"><li><span><strong>PhD, Biomedical Imaging</strong> <span class=\"ds-sub\">Monash University</span></span><span class=\"ds-year\">2019</span></li><li><span>Machine Learning Specialization</span><span class=\"ds-year\">Cert.</span></li></ul>",
+      "css": ":host{--paper:#fbfaf7;--paper-2:#f1efe9;--ink:#141414;--ink-2:#4f4c47;--hairline:#cfcac0;--red:#c8102e;--red-hover:#a10b24;--on-red:#fff;--f-display:'Bricolage Grotesque Variable','Avenir Next',system-ui,sans-serif;--f-sans:var(--f-display);--f-text:'Literata Variable',Georgia,serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-contents{list-style:none;margin:0;padding:0;font-family:var(--f-text);color:var(--ink);} .ds-contents li{display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding-block:14px;border-bottom:1px solid var(--hairline);} .ds-contents li:first-child{border-top:1px solid var(--ink);} .ds-contents strong{font-weight:600;} .ds-sub{display:block;color:var(--ink-2);font-style:italic;} .ds-year{font-family:var(--f-sans);font-size:0.9rem;font-variant-numeric:tabular-nums;color:var(--ink-2);white-space:nowrap;}"
     }
   ],
   "narrative": {
-    "northStar": "The Slide Box",
-    "overview": "The whole system is a pathology lab's slide box seen on a light box. Every chapter of the work is a glass slide: a frosted label end on the left carrying an accession code, dates and a pencilled note, and a clear glass field on the right holding the specimen, which is the result itself. The ground is the warm white of a light box; the dark section is the inside of the box, where slides sit in recessed channels and can be pulled out to read their full record.\n\nColour comes from histology, not from a brand palette. Eosin pink and haematoxylin purple are the stain; they mark the specimen, the accession codes and the box interior. The portrait is not tinted, it is stained: a real SVG gradient-map filter (`#he-stain`) maps its luminance onto the H&E ramp, and a toggle shows it unstained. Marker yellow sits outside the stain entirely, because it means one thing: you can press this.\n\nType behaves like lab stationery. Archivo's width axis does three jobs: condensed for label-printer codes, normal for actions, wide and heavy for names and headings. Source Serif 4 carries reading text and the specimen results. Reenie Beanie is the pencil, kept to short annotations and index-card titles.",
+    "northStar": "The Feature Spread",
+    "overview": "The site is set as a magazine feature in the Brodovitch Harper's Bazaar tradition. Every section is a spread: two facing pages divided by a vertical hairline gutter seam. One page poses (a photograph, a big title, or one large real result), the facing page answers (a name, a byline, a list, an invitation). The material is printed paper: warm paper white, ink black, the portrait reprinted as a grey photogravure with grain, and hairline rules. There are no cards, no shadows and no rounded corners.\n\nType carries almost everything, in two voices. Bricolage Grotesque, a variable grotesque set heavy (560 to 750) and tightly tracked (down to -0.04em), announces: the name, spread titles, results, organisation names, and the small apparatus of a magazine (folios, captions, dates, buttons, links). Literata, a variable text serif, is what you read: the intro, the deck, the standfirst, the role line, body copy, and every italic aside, including the italic word inside a spread title. Both faces size their optical axis automatically. The only colour is one lipstick red, which marks things you can press and nothing else.\n\nThe rhythm is generous and editorial: spreads breathe with large block padding, and the role spreads are all the same size, alternating result-left and result-right down the page. On narrow screens each spread stacks pose over answer and the seam turns into a horizontal rule.",
     "keyCharacteristics": [
-      "Two grounds only: the light box (#f3f1ea) and the box interior (haematoxylin dark).",
-      "Glass slides at a 3:1 ratio with a frosted label end, a glass-edge stroke and a tight 3px corner.",
-      "The H&E stain is a filter on real imagery, never a colour overlay.",
-      "Accession codes on every slide and on the box label.",
-      "Marker yellow appears only on interactive things.",
-      "Index cards on ruled stock with a red header line, slightly rotated, on the lid."
+      "Two-page spreads split by a 1px hairline seam, alternating left and right through the roles.",
+      "Bricolage Grotesque, heavy and tight, for everything that announces; Literata for everything read and every italic.",
+      "Paper, ink and greys, plus one red reserved for pressable things.",
+      "Photography reprinted as greyscale photogravure with a multiplied grain layer.",
+      "Square corners, flat surfaces, depth from rules and type scale only."
     ],
     "rules": [
       {
-        "name": "The Marker Rule",
-        "body": "Marker yellow is reserved for things you can press: buttons, link underlines, pressed toggles, action cues, focus halos. If it cannot be clicked, focused or selected, it is not yellow.",
+        "name": "The Pressable Red Rule",
+        "body": "Red marks only what can be pressed or is focused: buttons, link underlines, the record toggle, the focus ring, the caret. If it cannot be clicked, focused or typed into, it is ink, never red.",
         "section": "colors"
       },
       {
-        "name": "The Stain Rule",
-        "body": "Eosin and haematoxylin belong to specimens, accession codes, the index cards' printed ink (title, header line, rules) and the box interior. Imagery is stained through the `#he-stain` gradient-map filter (greyscale, gamma 0.55, then a table ramp from haematoxylin through eosin to near-white), never by tinting, blending or overlaying colour, and the unstained original stays one toggle away.",
+        "name": "The Two Rules Rule",
+        "body": "Rules come in two weights of colour, not thickness: ink rules (1px `ink`) frame the publication (masthead, end of the opening spread, top of the contents list, colophon); hairline rules (1px `hairline`) divide within it (seam, spreads, features, captions, list rows).",
         "section": "colors"
       },
       {
-        "name": "The Width Axis Rule",
-        "body": "Archivo's width says what the text is: 72% for codes and numbers, 100% for actions, 112% for names and headings. Do not fake condensation or extension with letter-spacing or a second family.",
+        "name": "The Two Voices Rule",
+        "body": "Bricolage announces, Literata is read. Names, titles, results, organisations, labels and actions are Bricolage; intro, deck, standfirst, role lines, notes and lists are Literata.",
         "section": "typography"
       },
       {
-        "name": "The Pencil Rule",
-        "body": "Reenie Beanie is for a few words at a time: annotations, places, index-card titles. Never body copy, data, or anything a visitor must read to act. Purely decorative notes are hidden from assistive technology.",
+        "name": "The Italic Belongs To Literata Rule",
+        "body": "Bricolage is never italic. Any italic on the page, including the operative word in a spread title, is Literata 400.",
         "section": "typography"
       },
       {
-        "name": "The Inverted Box Rule",
-        "body": "On the light box things lift; inside the box things are recessed. A surface's shadow follows where the object physically sits.",
+        "name": "The Tight Heavy Display Rule",
+        "body": "Display sizes run heavy (560 to 750) and tight (-0.035 to -0.04em); tracking loosens as size drops (-0.015em for titles, positive tracking only for uppercase labels and actions). Optical sizing is automatic; never set opsz by hand.",
+        "section": "typography"
+      },
+      {
+        "name": "The Printed Page Rule",
+        "body": "Nothing lifts off the paper. If a surface needs separation, use a hairline rule or whitespace, never a shadow, blur or tint.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "**Do** put an accession code (AP-NN or AP-YYYY-XXX, eosin, condensed caps) on the frosted label end of every slide and on the box label.",
-      "**Do** keep marker yellow (#f2b705) on interactive elements only, with marker ink text on it.",
-      "**Do** stain imagery with the `#he-stain` SVG filter and keep an unstained view reachable.",
-      "**Do** use Archivo's width axis to separate codes (72), actions (100) and names (112).",
-      "**Do** lift objects on the light box and recess them inside the tray.",
-      "**Do** keep radii between 1px and 6px; slides are 3px.",
-      "**Do** hold index-card content to the 1.75rem rule.",
-      "**Do** honour reduced motion: the focus-in blur, record unroll and hover lifts collapse to near-zero duration."
+      "Do compose every new section as a spread: one page poses, the facing page answers, a 1px hairline seam between them.",
+      "Do set real results at display size in upright Bricolage (560, -0.035em, lining figures), one per role spread.",
+      "Do keep every role spread the same size and alternate the result between left and right pages.",
+      "Do reserve red for pressable and focused things only.",
+      "Do set the operative word of a spread title as a Literata 400 italic aside.",
+      "Do reprint photography as greyscale photogravure with the grain layer.",
+      "Do keep motion on the house ease (cubic-bezier(0.16, 1, 0.3, 1)) and behind prefers-reduced-motion."
     ],
     "donts": [
-      "**Don't** use marker yellow for decoration, emphasis, backgrounds or headings.",
-      "**Don't** tint photographs with colour overlays, blend modes or CSS hue filters; the stain is the gradient map.",
-      "**Don't** use eosin or haematoxylin as general UI accents away from specimens, codes, index-card ink or the box interior.",
-      "**Don't** place accession codes or small caps labels above headings as section kickers; codes label slides, they do not introduce sections.",
-      "**Don't** set body copy, data or calls to action in Reenie Beanie.",
-      "**Don't** add a fourth typeface or substitute a system face for Archivo.",
-      "**Don't** use hard offset shadows; depth is soft, tinted and physical.",
-      "**Don't** introduce pill shapes or radii above 6px."
+      "Don't use shadows, rounded corners, cards or tinted panels; separation is rules and whitespace.",
+      "Don't introduce a second accent colour or use red for decoration, emphasis or data.",
+      "Don't italicise Bricolage, or set reading content (intro, deck, notes, lists) in it.",
+      "Don't set explicit optical sizes; both faces size their optical axis automatically.",
+      "Don't promote one role above the others with a larger or full-width spread.",
+      "Don't show photography in full colour."
     ]
   }
 }

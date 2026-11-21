@@ -4,8 +4,9 @@ location: Melbourne, Australia
 portrait: /images/portrait.jpg
 portrait_alt: Abhishek Patil, smiling, in a grey beanie and a yellow t-shirt in
   front of green foliage
-headline: I study cells under the microscope, and I build software that holds up
-  in production.
+headline: I build software to analyse high-throughput microscopy images. Beyond the
+  lab, I design and ship production systems, from embedded firmware to healthcare
+  platforms.
 intro: "PhD in biomedical imaging, Research Fellow at Monash University, and
   founder of Zeroth, an independent consultancy. Over fifteen years I've written
   firmware for survey instruments in Paris, digitised land registration for a
@@ -29,16 +30,36 @@ focus:
     text: Full-stack platforms from data model to UI, built to grow from MVP to
       scale.
   - title: Healthcare technology
-    text: EHR and telemedicine systems with FHIR interoperability.
+    text: EHR and telemedicine systems.
   - title: Identity & security
     text: Authentication and authorisation design, informed by three years at
       Auth0/Okta.
 stack:
-  - Python
-  - C++
-  - TypeScript / Node
-  - SQL
-  - Docker
+  - area: Imaging & ML
+    tools:
+      - Python
+      - PyTorch
+      - CUDA
+      - Spotiflow
+  - area: AI systems
+    tools:
+      - Claude
+      - LLM APIs
+      - RAG
+      - Agents
+      - On-device inference
+  - area: Product
+    tools:
+      - TypeScript / Node
+      - SQL
+      - Docker
+      - AWS
+  - area: Systems
+    tools:
+      - C++
+      - Qt / QML
+      - Embedded Linux
+      - OIDC / OAuth
 experience:
   - code: AP-2025-ZER
     org: Zeroth

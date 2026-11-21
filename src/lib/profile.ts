@@ -31,7 +31,7 @@ const Profile = z.object({
     scholar: z.string().optional().default(''),
   }),
   focus: z.array(z.object({ title: z.string(), text: z.string() })).default([]),
-  stack: z.array(z.string()).default([]),
+  stack: z.array(z.object({ area: z.string(), tools: z.array(z.string()).default([]) })).default([]),
   experience: z.array(Job),
   education: z.array(z.object({ degree: z.string(), school: z.string(), year: z.coerce.string() })).default([]),
   certifications: z.array(z.string()).default([]),

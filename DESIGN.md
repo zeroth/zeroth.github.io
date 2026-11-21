@@ -1,298 +1,245 @@
 ---
 name: zeroth.me
-description: A career archived as a slide box. Glass slides on a light box, an H&E stain, and marker yellow for anything that can be pressed.
+description: A career set as a magazine feature. Paper white, ink black, photogravure greys, and one lipstick red for anything that can be pressed.
 colors:
-  marker: "#f2b705"
-  marker-hover: "#ffc61a"
-  marker-ink: "#1d1600"
-  eosin: "#c13b6b"
-  eosin-pale: "#f6d6e2"
-  eosin-bright: "#f27aa3"
-  haem: "#3a2160"
-  haem-deep: "#201530"
-  haem-mid: "#2c1e42"
-  haem-channel: "#160e22"
-  on-haem: "#efe9f7"
-  on-haem-2: "#bcaed3"
-  lightbox: "#f3f1ea"
-  frost: "#fcfbf8"
-  card-stock: "#fdfdfb"
-  ink: "#1d2a2f"
-  ink-2: "#4a585e"
-  pencil-graphite: "#5d6a70"
-  rule: "#d8d3c6"
-  glass-edge: "#8fae9f"
+  red: "#c8102e"
+  red-hover: "#a10b24"
+  on-red: "#ffffff"
+  paper: "#fbfaf7"
+  paper-2: "#f1efe9"
+  ink: "#141414"
+  ink-2: "#4f4c47"
+  ink-3: "#6e6a63"
+  hairline: "#cfcac0"
 typography:
   display:
-    fontFamily: "Archivo Variable, Archivo, system-ui, sans-serif"
-    fontSize: "clamp(1.7rem, 3.4vw, 3.15rem)"
-    fontWeight: 760
-    lineHeight: 0.95
-    letterSpacing: "-0.025em"
-    fontVariation: "'wdth' 112"
+    fontFamily: "Bricolage Grotesque Variable, Avenir Next, system-ui, sans-serif"
+    fontSize: "clamp(3.4rem, 7.6vw, 7.5rem)"
+    fontWeight: 720
+    lineHeight: 0.92
+    letterSpacing: "-0.04em"
   headline:
-    fontFamily: "Archivo Variable, Archivo, system-ui, sans-serif"
-    fontSize: "clamp(2rem, 4.4vw, 4rem)"
-    fontWeight: 740
+    fontFamily: "Bricolage Grotesque Variable, Avenir Next, system-ui, sans-serif"
+    fontSize: "clamp(2.5rem, 5.4vw, 4.75rem)"
+    fontWeight: 680
     lineHeight: 0.98
-    letterSpacing: "-0.03em"
-    fontVariation: "'wdth' 112"
-  thesis:
-    fontFamily: "Source Serif 4 Variable, Source Serif 4, Georgia, serif"
-    fontSize: "clamp(1.9rem, 3.7vw, 3.55rem)"
-    fontWeight: 380
-    lineHeight: 1.06
-    letterSpacing: "-0.022em"
-  specimen:
-    fontFamily: "Source Serif 4 Variable, Source Serif 4, Georgia, serif"
-    fontSize: "clamp(1.35rem, 2.1vw, 2.05rem)"
-    fontWeight: 450
-    lineHeight: 1.02
+    letterSpacing: "-0.035em"
+  headline-aside:
+    fontFamily: "Literata Variable, Georgia, serif"
+    fontWeight: 400
     letterSpacing: "-0.02em"
+  result:
+    fontFamily: "Bricolage Grotesque Variable, Avenir Next, system-ui, sans-serif"
+    fontSize: "clamp(2.1rem, 4.4vw, 4rem)"
+    fontWeight: 560
+    lineHeight: 0.98
+    letterSpacing: "-0.035em"
+    fontFeature: "'lnum' 1"
+  deck:
+    fontFamily: "Literata Variable, Georgia, serif"
+    fontSize: "clamp(1.35rem, 2vw, 1.85rem)"
+    fontWeight: 400
+    lineHeight: 1.22
+    letterSpacing: "-0.01em"
   title:
-    fontFamily: "Archivo Variable, Archivo, system-ui, sans-serif"
-    fontSize: "clamp(1.3rem, 1.9vw, 1.8rem)"
-    fontWeight: 740
-    lineHeight: 1.05
-    letterSpacing: "-0.02em"
-    fontVariation: "'wdth' 112"
+    fontFamily: "Bricolage Grotesque Variable, Avenir Next, system-ui, sans-serif"
+    fontSize: "clamp(1.55rem, 2.3vw, 2.15rem)"
+    fontWeight: 680
+    lineHeight: 1.08
+    letterSpacing: "-0.015em"
   body:
-    fontFamily: "Source Serif 4 Variable, Source Serif 4, Georgia, serif"
-    fontSize: "clamp(17px, 1.05vw + 12px, 19px)"
+    fontFamily: "Literata Variable, Georgia, serif"
+    fontSize: "clamp(17px, 0.9vw + 12px, 19px)"
     fontWeight: 400
     lineHeight: 1.55
   action:
-    fontFamily: "Archivo Variable, Archivo, system-ui, sans-serif"
+    fontFamily: "Bricolage Grotesque Variable, Avenir Next, system-ui, sans-serif"
     fontSize: "1rem"
-    fontWeight: 650
-    letterSpacing: "0.005em"
-  label:
-    fontFamily: "Archivo Variable, Archivo, system-ui, sans-serif"
-    fontSize: "0.8rem"
-    fontWeight: 600
-    letterSpacing: "0.06em"
-    fontFeature: "'tnum' 1"
-    fontVariation: "'wdth' 72"
-  pencil:
-    fontFamily: "Reenie Beanie, cursive"
-    fontSize: "1.55rem"
+    fontWeight: 500
+    letterSpacing: "0.02em"
+  caption:
+    fontFamily: "Bricolage Grotesque Variable, Avenir Next, system-ui, sans-serif"
+    fontSize: "0.95rem"
     fontWeight: 400
-    lineHeight: 1
+    lineHeight: 1.55
+  label:
+    fontFamily: "Bricolage Grotesque Variable, Avenir Next, system-ui, sans-serif"
+    fontSize: "0.8rem"
+    fontWeight: 400
+    letterSpacing: "0.14em"
+    fontFeature: "'tnum' 1"
 rounded:
-  hairline: "1px"
-  sm: "2px"
-  slide: "3px"
-  channel: "4px"
-  tray: "6px"
+  none: "0"
 spacing:
-  gutter: "clamp(16px, 4vw, 56px)"
-  max: "1240px"
-  card-line: "1.75rem"
-  action-gap: "14px 22px"
-  section-tight: "clamp(28px, 4.4vw, 60px)"
-  section: "clamp(64px, 9vw, 128px)"
-  section-wide: "clamp(72px, 10vw, 140px)"
+  gutter: "clamp(16px, 4vw, 64px)"
+  seam-gap: "clamp(28px, 4.5vw, 72px)"
+  max: "1320px"
+  spread-block: "clamp(64px, 9vw, 136px)"
+  feature-block: "clamp(40px, 6vw, 88px)"
+  close-block: "clamp(80px, 11vw, 168px)"
 components:
   button-primary:
-    backgroundColor: "{colors.marker}"
-    textColor: "{colors.marker-ink}"
+    backgroundColor: "{colors.red}"
+    textColor: "{colors.on-red}"
     typography: "{typography.action}"
-    rounded: "{rounded.sm}"
-    padding: "0.78em 1.15em 0.8em"
+    rounded: "{rounded.none}"
+    padding: "0.85em 1.25em 0.9em"
   button-primary-hover:
-    backgroundColor: "{colors.marker-hover}"
-    textColor: "{colors.marker-ink}"
+    backgroundColor: "{colors.red-hover}"
+    textColor: "{colors.on-red}"
   text-link:
     textColor: "{colors.ink}"
+    typography: "{typography.caption}"
+  text-link-hover:
+    textColor: "{colors.red}"
+  record-toggle:
+    textColor: "{colors.red}"
     typography: "{typography.action}"
-  stain-toggle:
-    backgroundColor: "{colors.frost}"
+    padding: "6px 0"
+  plate-caption:
+    backgroundColor: "{colors.paper}"
     textColor: "{colors.ink}"
-    typography: "{typography.label}"
-    padding: "6px 10px"
-  stain-toggle-active:
-    backgroundColor: "{colors.marker}"
-    textColor: "{colors.marker-ink}"
-  action-cue:
-    backgroundColor: "{colors.marker}"
-    textColor: "{colors.marker-ink}"
-    typography: "{typography.label}"
-    rounded: "{rounded.hairline}"
-    padding: "3px 7px 2px"
-  slide-label:
-    backgroundColor: "{colors.frost}"
-    textColor: "{colors.ink}"
-  index-card:
-    backgroundColor: "{colors.card-stock}"
-    textColor: "{colors.ink}"
-    typography: "{typography.body}"
-    padding: "calc(1.75rem * 0.75) clamp(20px, 3vw, 36px) 1.75rem"
-  record:
-    backgroundColor: "{colors.frost}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.sm}"
-    padding: "22px clamp(18px, 2.4vw, 32px) 24px"
-  tray-channel:
-    backgroundColor: "{colors.haem-channel}"
-    rounded: "{rounded.channel}"
-    padding: "5px"
+    rounded: "{rounded.none}"
+    padding: "4px 8px"
+  skip-link:
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.paper}"
+    padding: "10px 14px"
 ---
 
 # Design System: zeroth.me
 
 ## Overview
 
-**Creative North Star: "The Slide Box"**
+**Creative North Star: "The Feature Spread"**
 
-The whole system is a pathology lab's slide box seen on a light box. Every chapter of the work is a glass slide: a frosted label end on the left carrying an accession code, dates and a pencilled note, and a clear glass field on the right holding the specimen, which is the result itself. The ground is the warm white of a light box; the dark section is the inside of the box, where slides sit in recessed channels and can be pulled out to read their full record.
+The site is set as a magazine feature in the Brodovitch Harper's Bazaar tradition. Every section is a spread: two facing pages divided by a vertical hairline gutter seam. One page poses (a photograph, a big title, or one large real result), the facing page answers (a name, a byline, a list, an invitation). The material is printed paper: warm paper white, ink black, the portrait reprinted as a grey photogravure with grain, and hairline rules. There are no cards, no shadows and no rounded corners.
 
-Colour comes from histology, not from a brand palette. Eosin pink and haematoxylin purple are the stain; they mark the specimen, the accession codes and the box interior. The portrait is not tinted, it is stained: a real SVG gradient-map filter (`#he-stain`) maps its luminance onto the H&E ramp, and a toggle shows it unstained. Marker yellow sits outside the stain entirely, because it means one thing: you can press this.
+Type carries almost everything, in two voices. Bricolage Grotesque, a variable grotesque set heavy (560 to 750) and tightly tracked (down to -0.04em), announces: the name, spread titles, results, organisation names, and the small apparatus of a magazine (folios, captions, dates, buttons, links). Literata, a variable text serif, is what you read: the intro, the deck, the standfirst, the role line, body copy, and every italic aside, including the italic word inside a spread title. Both faces size their optical axis automatically. The only colour is one lipstick red, which marks things you can press and nothing else.
 
-Type behaves like lab stationery. Archivo's width axis does three jobs: condensed for label-printer codes, normal for actions, wide and heavy for names and headings. Source Serif 4 carries reading text and the specimen results. Reenie Beanie is the pencil, kept to short annotations and index-card titles.
+The rhythm is generous and editorial: spreads breathe with large block padding, and the role spreads are all the same size, alternating result-left and result-right down the page. On narrow screens each spread stacks pose over answer and the seam turns into a horizontal rule.
 
 **Key Characteristics:**
-- Two grounds only: the light box (#f3f1ea) and the box interior (haematoxylin dark).
-- Glass slides at a 3:1 ratio with a frosted label end, a glass-edge stroke and a tight 3px corner.
-- The H&E stain is a filter on real imagery, never a colour overlay.
-- Accession codes on every slide and on the box label.
-- Marker yellow appears only on interactive things.
-- Index cards on ruled stock with a red header line, slightly rotated, on the lid.
+- Two-page spreads split by a 1px hairline seam, alternating left and right through the roles.
+- Bricolage Grotesque, heavy and tight, for everything that announces; Literata for everything read and every italic.
+- Paper, ink and greys, plus one red reserved for pressable things.
+- Photography reprinted as greyscale photogravure with a multiplied grain layer.
+- Square corners, flat surfaces, depth from rules and type scale only.
 
 ## Colors
 
-A stained-specimen palette on a warm light box: two histology dyes, graphite ink, and one action yellow standing outside the stain.
+A printed-paper palette: warm off-white stock, near-black ink in three strengths, a sand hairline, and a single lipstick red.
 
 ### Primary
-- **Marker Yellow** (marker): the only colour of interaction. Primary buttons, the pressed stain toggle, the "Read record" action cue, the underline of every text link, the skip link and the outer halo of the focus ring. **Marker Hover** (marker-hover) is its brighter hover state; **Marker Ink** (marker-ink) is the near-black text set on it.
-
-### Secondary
-- **Eosin** (eosin): accession codes and small specimen labels on light surfaces (slide labels, index-card lead-ins, the footer box label, the record's organisation note), and the text-selection colour on the light ground.
-- **Eosin Pale** (eosin-pale): the empty specimen field behind a pending or loading portrait.
-- **Eosin Bright** (eosin-bright): specimen results inside the dark tray, and the lit cells of the empty slot's seven-segment number. The legible eosin for dark ground.
-
-### Tertiary
-- **Haematoxylin** (haem): the stain's purple on light ground: index-card titles, record bullets, the scrollbar thumb, pending-specimen pencil text.
-- **Box Interior** (haem-deep): the tray section's ground.
-- **Tray Floor** (haem-mid): the inset panel the slide channels are cut into.
-- **Channel Shadow** (haem-channel): the recessed channel each closed slide sits in.
-- **On-Haem** (on-haem) and **On-Haem Muted** (on-haem-2): primary and secondary text inside the tray; the muted tone also draws position numbers, roles, notes and the empty slot's dashed outline.
+- **Lipstick Red** (`red`): The fill of the email button, the underline colour of every text link, the hover colour of links, the "Read the full record" toggle, the focus outline, the caret and the form accent colour. It is the only chromatic colour in the system.
+- **Pressed Red** (`red-hover`): The button fill on hover. Never used at rest.
+- **On Red** (`on-red`): Button label and arrow on the red fill.
 
 ### Neutral
-- **Light Box** (lightbox): the page ground and theme colour.
-- **Frost** (frost): frosted label ends, the record sheet, the stain toggle's resting face; carries a fine fractal-noise grain.
-- **Card Stock** (card-stock): index-card paper, a touch whiter than frost.
-- **Graphite Ink** (ink): primary text, focus-ring stroke, stain-toggle borders.
-- **Graphite Muted** (ink-2): secondary text: roles, intro paragraphs, years, footer copy.
-- **Pencil Graphite** (pencil-graphite): handwritten annotations on light surfaces.
-- **Rule** (rule): the footer box-label border.
-- **Glass Edge** (glass-edge): the green-grey edge of every slide on light ground, the label/glass divider and the cover-slip outline.
+- **Paper White** (`paper`): The page stock behind everything; also the background of the caption tab on the photo plate and of text selection.
+- **Plate Grey** (`paper-2`): The ground of the photo plate before the image loads, and the scrollbar track.
+- **Ink** (`ink`): Headlines, names, results, byline organisations, the heavy rules under the masthead and opening spread and above the colophon, the dash markers in the record list, the skip link and the selection fill.
+- **Second Ink** (`ink-2`): Reading text that sits beside a headline (intro, focus paragraphs, notes, standfirst), dates, folios and the colophon. 8.2:1 on paper.
+- **Third Ink** (`ink-3`): The quietest text, currently only the "portrait pending" placeholder. 5.2:1 on paper; do not go lighter.
+- **Hairline** (`hairline`): The gutter seam, the rules between spreads and between features, the caption-line rule and the contents-list rows.
 
 ### Named Rules
-**The Marker Rule.** Marker yellow is reserved for things you can press: buttons, link underlines, pressed toggles, action cues, focus halos. If it cannot be clicked, focused or selected, it is not yellow.
+**The Pressable Red Rule.** Red marks only what can be pressed or is focused: buttons, link underlines, the record toggle, the focus ring, the caret. If it cannot be clicked, focused or typed into, it is ink, never red.
 
-**The Stain Rule.** Eosin and haematoxylin belong to specimens, accession codes, the index cards' printed ink (title, header line, rules) and the box interior. Imagery is stained through the `#he-stain` gradient-map filter (greyscale, gamma 0.55, then a table ramp from haematoxylin through eosin to near-white), never by tinting, blending or overlaying colour, and the unstained original stays one toggle away.
+**The Two Rules Rule.** Rules come in two weights of colour, not thickness: ink rules (1px `ink`) frame the publication (masthead, end of the opening spread, top of the contents list, colophon); hairline rules (1px `hairline`) divide within it (seam, spreads, features, captions, list rows).
 
 ## Typography
 
-**Display Font:** Archivo Variable (with Archivo, system-ui)
-**Body Font:** Source Serif 4 Variable (with Source Serif 4, Georgia)
-**Label/Mono Font:** Archivo at 72% width for codes; Reenie Beanie for pencil notes
+**Display Font:** Bricolage Grotesque Variable (with Avenir Next, system-ui, sans-serif)
+**Body Font:** Literata Variable (with Georgia, serif)
+**Label Font:** Bricolage Grotesque Variable (the sans token aliases the display face)
 
-**Character:** A label printer and a lab notebook. Archivo's width axis separates labelling from naming; Source Serif 4, with optical sizing on, reads like the written record; Reenie Beanie is the scientist's pencil on frosted glass.
+**Character:** A friendly, slightly quirky grotesque set heavy and tight for headings, against a warm, bookish text serif whose italic does all the asides. The contrast is weight and voice, not two different sans faces.
 
 ### Hierarchy
-- **Display** (760, wdth 112, clamp(1.7rem, 3.4vw, 3.15rem), 0.95): the name on slide 01's label. Balanced wrapping.
-- **Headline** (740, wdth 112, clamp(2rem, 4.4vw, 4rem), 0.98): the tray's heading. The same wide, heavy voice is used at 1.35rem for the footer name.
-- **Thesis** (Source Serif 4, 380, clamp(1.9rem, 3.7vw, 3.55rem), 1.06): the one large serif statement under the hero slide.
-- **Specimen** (Source Serif 4, 450, clamp(1.35rem, 2.1vw, 2.05rem), 1.02): the result each slide is remembered for, in eosin bright.
-- **Title** (740, wdth 112, clamp(1.3rem, 1.9vw, 1.8rem), 1.05): the empty slot's heading.
-- **Body** (Source Serif 4, 400, clamp(17px, 1.05vw + 12px, 19px), 1.55): reading text; intros capped at 60ch, tray notes at 46ch, records at 78ch.
-- **Action** (Archivo 650, 1rem): button labels; text links use Archivo 560 at about 0.95rem.
-- **Label** (Archivo 600, wdth 72, 0.8rem, 0.06em, uppercase, tabular figures): accession codes, the stain toggle, the scale bar, position numbers and the header's box mark. Shrinks to 0.74rem on tray slides.
-- **Pencil** (Reenie Beanie 400, 1.55rem, line-height 1): short handwritten notes, rotated a few degrees; index-card titles at 2.3rem in haematoxylin.
+- **Display** (720, clamp(3.4rem, 7.6vw, 7.5rem), 0.92, -0.04em): The name on the opening spread only. First name and surname both upright, the surname stepped in by 0.9em (0.6em on mobile). The closing title "This slot is open." uses the same voice at clamp(3rem, 7vw, 6rem).
+- **Headline** (680, clamp(2.5rem, 5.4vw, 4.75rem), 0.98, -0.035em): Spread titles. On posing pages it scales to clamp(2.8rem, 6.4vw, 6rem). The operative word is an italic aside in Literata 400 at -0.02em, so the title mixes heavy grotesque with light serif italic.
+- **Result** (560, clamp(2.1rem, 4.4vw, 4rem), 0.98, -0.035em, lining figures): The one real result printed on each role spread, upright. Arrows and signs sit in the same face and weight.
+- **Deck** (Literata italic 400, clamp(1.35rem, 2vw, 1.85rem), 1.22, max 30ch): The headline under the name. The standfirst above it is Literata italic at clamp(1.1rem, 1.4vw, 1.3rem) in second ink.
+- **Title** (680, clamp(1.55rem, 2.3vw, 2.15rem), 1.08, -0.015em): Organisation names in role bylines. Focus-list titles are Bricolage 600 at clamp(1.2rem, 1.5vw, 1.4rem). The role line under each organisation is Literata italic at 1.1rem.
+- **Body** (Literata 400, clamp(17px, 0.9vw + 12px, 19px), 1.55): All reading text, 46 to 62ch measures.
+- **Action** (Bricolage 500, 1rem, 0.02em): Buttons and the record toggle.
+- **Caption** (Bricolage 400 to 450, 0.9 to 0.95rem): Text links, caption lines (with a 600 label in ink), contents years, the colophon.
+- **Label** (Bricolage 400, 0.7 to 0.8rem, 0.14 to 0.22em tracking, uppercase, tabular figures): The masthead folio, role dates and places, and the plate caption.
+- **Wordmarks** (Bricolage 750 at 1.5rem, -0.035em in the masthead; 700 at 1.3rem, -0.02em in the colophon): upright, never italic.
 
 ### Named Rules
-**The Width Axis Rule.** Archivo's width says what the text is: 72% for codes and numbers, 100% for actions, 112% for names and headings. Do not fake condensation or extension with letter-spacing or a second family.
+**The Two Voices Rule.** Bricolage announces, Literata is read. Names, titles, results, organisations, labels and actions are Bricolage; intro, deck, standfirst, role lines, notes and lists are Literata.
 
-**The Pencil Rule.** Reenie Beanie is for a few words at a time: annotations, places, index-card titles. Never body copy, data, or anything a visitor must read to act. Purely decorative notes are hidden from assistive technology.
+**The Italic Belongs To Literata Rule.** Bricolage is never italic. Any italic on the page, including the operative word in a spread title, is Literata 400.
+
+**The Tight Heavy Display Rule.** Display sizes run heavy (560 to 750) and tight (-0.035 to -0.04em); tracking loosens as size drops (-0.015em for titles, positive tracking only for uppercase labels and actions). Optical sizing is automatic; never set opsz by hand.
 
 ## Layout
 
-A single centred column, `min(100% - 2 × gutter, 1240px)`, with a fluid gutter (clamp(16px, 4vw, 56px)). The hero is one full-width slide at 3:1 with the label end taking 27%; below it the thesis sits in a 1.35fr / 1fr split, bottom-aligned. The lid is a 1.5fr / 1fr pair of index cards, the second dropped lower. The tray is a full-bleed dark band holding a two-column grid of slots, each a narrow position-number column plus the slide; an open slide spans both columns. Vertical rhythm is generous and fluid: section padding steps through clamp(28px, 4.4vw, 60px), clamp(64px, 9vw, 128px) and clamp(72px, 10vw, 140px). Index cards keep a strict 1.75rem baseline: their ruling, title height and list line-height all derive from it.
+The page is a single column of spreads inside a centred frame (`max` 1320px, `gutter` side margins). A spread is a three-column grid: two equal pages and a 1px seam column, separated by `seam-gap`. Text spreads use `spread-block` vertical padding; role features use `feature-block`, and the closing spread `close-block`. Spreads are divided by hairline rules.
 
-Responsive behaviour: at 1000px the tray drops to one column; at 860px the thesis, lid and tray head stack and the footer collapses to one column; at 640px the hero slide stands upright (label on top, a 5:4 cover-slip below), tray slides keep a 27% label end with a 150px minimum height, the primary action moves above the intro paragraph, and the action cue becomes an inline chip rather than a corner tag.
+The opening spread is the exception: it ignores the frame, sets the portrait plate full-height (up to the viewport minus the masthead, capped at 980px) bleeding off the left edge, and drops the column gap so the plate meets the seam. Below 1000px the plate page narrows to 0.9fr against a 1.1fr answer page.
+
+Role features are all one size and alternate sides: the first puts the result on the left page and the byline on the right, the next swaps them (the right-hand result and its note align right), and so on. Posing pages (titles) are sticky at 32px from the top while the answer page scrolls.
+
+At 820px and below every spread collapses to one column: pose, then answer, with a 28px row gap; the seam becomes a full-width horizontal hairline (hidden on the opening spread), the portrait becomes a square, every feature resets to result-then-byline aligned left, sticky posing is released, and the masthead folio is dropped.
 
 ## Elevation & Depth
 
-Depth is physical and follows the object. On the light box, glass lifts: slides combine an inset top highlight and inset green bottom edge with a tight contact shadow and a long soft drop. Paper lifts less (index cards, the footer label). Inside the tray, depth inverts: the floor and each channel are recessed with inset shadows, closed slides sit in them, and a pulled slide rises on hover. All shadows are soft and tinted by graphite or black; none are hard offsets.
-
-### Shadow Vocabulary
-- **Glass slide** (`inset 0 1px 0 rgba(255,255,255,0.95), inset 0 -1px 0 rgba(120,160,140,0.35), 0 1px 2px rgba(29,42,47,0.12), 0 18px 36px -24px rgba(29,42,47,0.45)`): slides on the light box.
-- **Paper card** (`0 1px 1px rgba(29,42,47,0.1), 0 14px 30px -18px rgba(29,42,47,0.4)`): index cards.
-- **Box label** (`0 10px 22px -18px rgba(29,42,47,0.5)`): the footer label.
-- **Marker lift** (`0 1px 0 rgba(29,22,0,0.25), 0 6px 14px -8px rgba(29,22,0,0.45)`): primary buttons; deepens on hover.
-- **Recessed floor** (`inset 0 2px 10px rgba(0,0,0,0.45), inset 0 0 0 1px rgba(255,255,255,0.04)`): the tray floor.
-- **Channel** (`inset 0 3px 8px rgba(0,0,0,0.75), inset 0 -1px 0 rgba(255,255,255,0.07)`): each closed slide's slot.
-- **Tray glass** (`inset 0 1px 0 rgba(255,255,255,0.22), 0 1px 0 rgba(0,0,0,0.3), 0 12px 24px -16px rgba(0,0,0,0.7)`): slides inside the box.
-- **Record sheet** (`0 16px 30px -18px rgba(0,0,0,0.7)`): the pulled record.
+The system is completely flat. There are no shadows anywhere. Depth comes from print devices only: rules, the scale and weight jump between display and body type, and the photogravure plate with its multiplied grain layer (22% opacity fractal noise). The plate caption sits on a paper-coloured tab rather than floating.
 
 ### Named Rules
-**The Inverted Box Rule.** On the light box things lift; inside the box things are recessed. A surface's shadow follows where the object physically sits.
+**The Printed Page Rule.** Nothing lifts off the paper. If a surface needs separation, use a hairline rule or whitespace, never a shadow, blur or tint.
 
 ## Shapes
 
-Lab glass and paper have nearly square corners, and the system stays there: 1px on the cover-slip and action cue, 2px on buttons, records and the footer label, 3px on slides and the empty slot, 4px on channels, 6px on the tray floor, the largest radius in use. Slides are defined by a 1px glass-edge stroke and a 1px divider between label and glass; the cover-slip adds an offset outline (1px, 3px offset). The empty slot is the one dashed form (1.5px dashed muted haematoxylin). Index cards and pencil notes carry small rotations (-0.6deg to 0.8deg for cards, -3deg to -4deg for notes). Record bullets are small haematoxylin dots.
+Every corner is square (0). Form is drawn with 1px lines: the vertical seam, horizontal rules, the 0.7em by 1px dash marking each record item, and link underlines offset 5px. Icons are hand-drawn inline SVG strokes (1.6 stroke width, round caps): an arrow on buttons that slides 4px right on hover, and a plus on the record toggle that rotates 45 degrees into a close mark when open.
 
 ## Components
 
 ### Buttons
-Tactile marker, pressed with confidence.
-- **Shape:** near-square (2px).
-- **Primary:** marker yellow with marker ink, Archivo 650 at 1rem, padding 0.78em 1.15em 0.8em, a trailing 1.1em stroked SVG arrow (1.8 stroke, round caps).
-- **Hover / Focus:** brightens to marker hover, lifts 1px, shadow deepens, arrow slides 3px right (220ms, ease-out cubic-bezier(0.16, 1, 0.3, 1)). Focus is the global ring: 2px graphite outline at 3px offset plus a 6px marker halo.
-- **Text link:** graphite Archivo 560 with a 3px marker underline at 5px offset; on hover the underline swells to 0.5em and rises behind the text like a highlighter stroke.
+Solid, square, quiet type on loud colour.
+- **Shape:** Square corners (0).
+- **Primary:** Red fill, white Bricolage 500 label at 1rem, padding 0.85em 1.25em 0.9em, with a trailing stroke arrow at 1.15em.
+- **Hover / Focus:** Fill deepens to pressed red over 220ms on the house ease; the arrow travels 4px right. Focus is the global 2px red outline at 3px offset.
+- There is one button per context: the email action on the opening and closing spreads.
 
-### Stain Toggle
-A segmented pair (Stained / Unstained) in condensed uppercase label type, 1px graphite borders, frost face; the pressed segment turns marker yellow. It appears only when JavaScript and a portrait are present, and swaps the cover-slip's `data-stain` between the H&E filter and none.
+### Text Links
+- **Style:** Bricolage 450 at 0.95rem in ink, underlined in red at 1px, 5px offset.
+- **Hover:** Text turns red and the underline thickens to 2px.
+- Used for the masthead email, social links beside the button, and the colophon links.
 
-### Glass Slide (signature)
-The repeating unit. A grid with a 27% frosted label end and a clear glass field, 1px glass-edge stroke, 3px radius. The label end carries the accession code (eosin, condensed caps), then a bold detail (name or years) and a pencil note pinned to the bottom. On the light box it is a 3:1 glass with the stained specimen under a cover-slip and a white 10 µm scale bar. In the tray it becomes translucent glass on dark: organisation and role in Archivo, the specimen result in eosin-bright serif, a muted note beneath.
+### Record Toggle (signature)
+Each role byline ends in a native details/summary "Read the full record". The summary is red Bricolage 500 with a plus icon; on hover a red 1px underline draws in from the left (320ms). Open, the icon turns 45 degrees, the label swaps to "Close the record", and a Literata list unfolds below a hairline rule, each item marked with a 0.7em ink dash. Works without JavaScript.
 
-### Tray Slot and Pull
-Each slot pairs a condensed position number with a slide seated in a recessed channel. The slide is a `details` summary: hover lifts it 3px with a deeper shadow (380ms ease-out); a marker action cue ("Read record" / "Put back") appears in the corner on hover-capable devices and is shown as a quiet outlined chip on touch. Opening the slot spans it across the grid, slides the glass right, and unrolls a frost record sheet (clip-path reveal, 520ms) with an eosin organisation note and dotted list.
+### Role Feature Spread (signature)
+One role per spread: an upright Bricolage result with a short Literata note on one page, the byline (organisation title, Literata italic role line, uppercase dates and place, optional note, record toggle) on the facing page, the seam between, a hairline above. Every role uses the same size and padding; only the side alternates.
 
-### Cards / Containers
-- **Corner Style:** square.
-- **Background:** card stock with a repeating faint haematoxylin rule every 1.75rem and a 2px eosin header line under the title.
-- **Shadow Strategy:** Paper card (see Elevation).
-- **Border:** none.
-- **Internal Padding:** 0.75 line top, clamp(20px, 3vw, 36px) sides, one line bottom.
-- Titles are pencil at 2.3rem in haematoxylin; list lead-ins are Archivo 650; inline lead-in labels ("Stack", "Languages") use the eosin label style.
+### Photo Plate (signature)
+The portrait is reprinted as photogravure: grayscale(1), contrast(1.14), brightness(1.03), cropped to cover at 50% 28%, with a grain overlay. A small uppercase Bricolage caption sits on a paper tab at the lower left. On load (motion permitting) the image wipes open from the seam over 1300ms while scaling from 1.06 to 1, and the name settles in from the left, the surname 140ms later.
 
-### Empty Slot
-The next slot in the box, designed as carefully as the filled ones: a dashed outline, a seven-segment slot number with lit cells in eosin bright and unlit cells at 10% muted haematoxylin, a wide Archivo title, muted body text, and the primary button. A pencil note points into it on wider screens.
+### Masthead and Colophon
+The masthead is a three-part baseline grid: the upright heavy Bricolage wordmark "zeroth", a centred uppercase folio (city and year), and the email link at the right, closed by a 1px ink rule. The colophon mirrors it at the foot: the upright Bricolage name, place, links and copyright, opened by an ink rule.
 
-### Navigation
-A minimal header bar: the box mark (condensed uppercase label type, 0.08em tracking) left and the email as a marker-underlined link right, baseline aligned. The footer is the box's own label: a frosted, bordered card with the name in wide Archivo, the location and an accession-style count, beside a row of marker-underlined text links.
+### Contents List
+Training is set as a table of contents: rows with the entry on the left (Literata 600 degree, Literata italic school) and the year in tabular Bricolage on the right, divided by hairlines and opened by an ink rule.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** put an accession code (AP-NN or AP-YYYY-XXX, eosin, condensed caps) on the frosted label end of every slide and on the box label.
-- **Do** keep marker yellow (#f2b705) on interactive elements only, with marker ink text on it.
-- **Do** stain imagery with the `#he-stain` SVG filter and keep an unstained view reachable.
-- **Do** use Archivo's width axis to separate codes (72), actions (100) and names (112).
-- **Do** lift objects on the light box and recess them inside the tray.
-- **Do** keep radii between 1px and 6px; slides are 3px.
-- **Do** hold index-card content to the 1.75rem rule.
-- **Do** honour reduced motion: the focus-in blur, record unroll and hover lifts collapse to near-zero duration.
+- **Do** compose every new section as a spread: one page poses, the facing page answers, a 1px hairline seam between them.
+- **Do** set real results at display size in upright Bricolage (560, -0.035em, lining figures), one per role spread.
+- **Do** keep every role spread the same size and alternate the result between left and right pages.
+- **Do** reserve red for pressable and focused things only.
+- **Do** set the operative word of a spread title as a Literata 400 italic aside.
+- **Do** reprint photography as greyscale photogravure with the grain layer.
+- **Do** keep motion on the house ease (cubic-bezier(0.16, 1, 0.3, 1)) and behind prefers-reduced-motion.
 
 ### Don't:
-- **Don't** use marker yellow for decoration, emphasis, backgrounds or headings.
-- **Don't** tint photographs with colour overlays, blend modes or CSS hue filters; the stain is the gradient map.
-- **Don't** use eosin or haematoxylin as general UI accents away from specimens, codes, index-card ink or the box interior.
-- **Don't** place accession codes or small caps labels above headings as section kickers; codes label slides, they do not introduce sections.
-- **Don't** set body copy, data or calls to action in Reenie Beanie.
-- **Don't** add a fourth typeface or substitute a system face for Archivo.
-- **Don't** use hard offset shadows; depth is soft, tinted and physical.
-- **Don't** introduce pill shapes or radii above 6px.
+- **Don't** use shadows, rounded corners, cards or tinted panels; separation is rules and whitespace.
+- **Don't** introduce a second accent colour or use red for decoration, emphasis or data.
+- **Don't** italicise Bricolage, or set reading content (intro, deck, notes, lists) in it.
+- **Don't** set explicit optical sizes; both faces size their optical axis automatically.
+- **Don't** promote one role above the others with a larger or full-width spread.
+- **Don't** show photography in full colour.
